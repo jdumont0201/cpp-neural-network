@@ -1,0 +1,3 @@
+C:/Users/jbmdu/CLionProjects/nn/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/jbmdu/CLionProjects/nn/cmake-build-debug/CMakeFiles/nn.dir
+C:/Users/jbmdu/CLionProjects/nn/cmake-build-debug/CMakeFiles/edit_cache.dir
