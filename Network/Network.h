@@ -29,10 +29,13 @@ public:
     void createOutputLayer();
 
     void linkNeurons();
-
-    void computeOutput();
+    void updateOutput();
+    double computeError();
+    int getNbLayers();
+    double getTargetValue(int i);
+    std::vector<std::shared_ptr<GenericLayer>> getLayers() const;
 
 };
-
+std::ostream &operator<<(std::ostream &os, const Network &c);
 
 #endif //NN_NETWORK_H

@@ -13,3 +13,7 @@ OutputLayerNeuron::OutputLayerNeuron(int layerId,int neuronId,double target){
 void OutputLayerNeuron::setTarget(double target){
     d_target=target;
 }
+
+double OutputLayerNeuron::computeError(){
+    return d_target-getOutput();
+}

@@ -82,6 +82,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/jbmdu/CLionProjects/nn/Algorithm/ActivationFunctions.cpp">
+			<Option target="nn"/>
+		</Unit>
+		<Unit filename="C:/Users/jbmdu/CLionProjects/nn/Algorithm/ActivationFunctions.h">
+			<Option target="nn"/>
+		</Unit>
+		<Unit filename="C:/Users/jbmdu/CLionProjects/nn/Algorithm/BackPropagator.cpp">
+			<Option target="nn"/>
+		</Unit>
+		<Unit filename="C:/Users/jbmdu/CLionProjects/nn/Algorithm/BackPropagator.h">
+			<Option target="nn"/>
+		</Unit>
 		<Unit filename="C:/Users/jbmdu/CLionProjects/nn/Connection/Connection.cpp">
 			<Option target="nn"/>
 		</Unit>

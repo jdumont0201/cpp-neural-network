@@ -14,8 +14,16 @@ class GenericNeuron : public std::enable_shared_from_this<GenericNeuron>{
     int d_layerId;
     double d_output;
     std::vector<Connection> d_backConnections;
-    std::vector<Connection> d_fwdConnections;
+public:
+    const std::vector<Connection> &getBackConnections() const;
 
+    void setD_backConnections(const std::vector<Connection> &d_backConnections);
+
+private:
+    std::vector<Connection> d_fwdConnections;
+protected:
+    double activationFunction(double x);
+    double activationFunctionDerivative(double x);
 public:
     //CONSTRUCTORS
     GenericNeuron(GenericNeuron* g);
@@ -24,16 +32,20 @@ public:
     //MANIPULATORS
     void setInputs(std::vector<Connection> backConnections);
     void linkNeuronsBackwards(std::shared_ptr<GenericLayer> prevLayer) ;
-    void computeOutput() ;
+    virtual double computeOutput();
+    void updateOutput();
+    double computeSumOfInputs() ;
+
 
     //ACCESSORS
     void setNeuronId(int neuronId);
-    int getNeuronId();
+    int getNeuronId() const;
     void setLayerId(int layerId);
-    int getLayerId();
+    int getLayerId() const;
     void setOutput(double output);
-    int getOutput();
+    double getOutput() const;
 };
 
+std::ostream& operator<<(std::ostream& os, const GenericNeuron& c);
 
 #endif //NN_GENERICNEURON_H

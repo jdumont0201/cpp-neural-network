@@ -14,6 +14,7 @@ protected:
     void setTarget(double target);
 public:
     OutputLayerNeuron(int layerId,int neuronId,double target);
+    double computeError();
 };
 
 

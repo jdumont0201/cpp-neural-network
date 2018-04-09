@@ -8,12 +8,14 @@
 
 #include "GenericLayer.h"
 #include "../Global/Declarations.h"
+#include "../Neuron/OutputLayerNeuron.h"
 
-class OutputLayer : public GenericLayer{
-
+class OutputLayer : public GenericLayer {
+    std::vector<std::shared_ptr<OutputLayerNeuron>> d_neurons;
 public :
-explicit OutputLayer(int layerId,RN & targetValues);
+    explicit OutputLayer(int layerId, RN &targetValues);
 
+    double computeError();
 
 };
 

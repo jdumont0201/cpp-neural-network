@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/nn.dir/Layer/OutputLayer.cpp.obj"
   "CMakeFiles/nn.dir/Network/Network.cpp.obj"
   "CMakeFiles/nn.dir/Connection/Connection.cpp.obj"
+  "CMakeFiles/nn.dir/Algorithm/ActivationFunctions.cpp.obj"
+  "CMakeFiles/nn.dir/Algorithm/BackPropagator.cpp.obj"
   "nn.pdb"
   "nn.exe"
   "nn.exe.manifest"

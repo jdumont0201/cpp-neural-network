@@ -16,12 +16,15 @@ class GenericLayer {
 protected :
     std::vector<std::shared_ptr<GenericNeuron>> d_neurons;
 public:
-    std::vector<std::shared_ptr<GenericNeuron>> getNeurons();
+    std::vector<std::shared_ptr<GenericNeuron>> getNeurons() const;
     void linkNeuronsBackwards(std::shared_ptr<GenericLayer> &prevLayer);
     void setLayerId(int layerId);
     int getLayerId();
-    void computeOutput() ;
-};
+    void updateOutput() ;
+    virtual double computeError(); //overriden by OutputLayer
 
+    int getSize() const;
+};
+std::ostream &operator<<(std::ostream &os, const GenericLayer &c);
 
 #endif //NN_GENERICLAYER_H

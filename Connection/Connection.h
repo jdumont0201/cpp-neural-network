@@ -6,6 +6,7 @@
 #define NN_INPUT_H
 
 #include <memory>
+#include <iostream>
 class GenericNeuron;
 
 class Connection {
@@ -13,12 +14,18 @@ class Connection {
     std::shared_ptr<GenericNeuron> d_to;
     double d_weight;
 public:
+
+    void setWeight(double d_weight);
+
+public:
     Connection(std::shared_ptr<GenericNeuron> from,std::shared_ptr<GenericNeuron>  to,double weight);
-    std::shared_ptr<GenericNeuron> getFrom();
-    std::shared_ptr<GenericNeuron> getTo();
-    double getWeight();
+    std::shared_ptr<GenericNeuron> getFrom() const;
+    std::shared_ptr<GenericNeuron> getTo() const;
+    double getWeight() const;
+
+
 
 };
-
+std::ostream& operator<<(std::ostream& os, const Connection& c);
 
 #endif //NN_INPUT_H

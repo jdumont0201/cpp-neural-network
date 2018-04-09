@@ -6,14 +6,36 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/jbmdu/CLionProjects/nn/Algorithm/ActivationFunctions.cpp
+ActivationFunctions.h
+C:/Users/jbmdu/CLionProjects/nn/Algorithm/ActivationFunctions.h
+math.h
+C:/Users/jbmdu/CLionProjects/nn/Algorithm/math.h
+
+C:/Users/jbmdu/CLionProjects/nn/Algorithm/ActivationFunctions.h
+
+C:/Users/jbmdu/CLionProjects/nn/Algorithm/BackPropagator.cpp
+BackPropagator.h
+C:/Users/jbmdu/CLionProjects/nn/Algorithm/BackPropagator.h
+iostream
+-
+
+C:/Users/jbmdu/CLionProjects/nn/Algorithm/BackPropagator.h
+../Network/Network.h
+C:/Users/jbmdu/CLionProjects/nn/Network/Network.h
+
 C:/Users/jbmdu/CLionProjects/nn/Connection/Connection.cpp
 Connection.h
 C:/Users/jbmdu/CLionProjects/nn/Connection/Connection.h
 memory
 -
+../Neuron/GenericNeuron.h
+C:/Users/jbmdu/CLionProjects/nn/Neuron/GenericNeuron.h
 
 C:/Users/jbmdu/CLionProjects/nn/Connection/Connection.h
 memory
+-
+iostream
 -
 
 C:/Users/jbmdu/CLionProjects/nn/Global/Declarations.h
@@ -67,6 +89,8 @@ GenericLayer.h
 C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.h
 ../Global/Declarations.h
 C:/Users/jbmdu/CLionProjects/nn/Global/Declarations.h
+../Neuron/InputLayerNeuron.h
+C:/Users/jbmdu/CLionProjects/nn/Neuron/InputLayerNeuron.h
 
 C:/Users/jbmdu/CLionProjects/nn/Layer/OutputLayer.cpp
 OutputLayer.h
@@ -75,12 +99,16 @@ C:/Users/jbmdu/CLionProjects/nn/Layer/OutputLayer.h
 C:/Users/jbmdu/CLionProjects/nn/Neuron/OutputLayerNeuron.h
 iostream
 -
+math.h
+C:/Users/jbmdu/CLionProjects/nn/Layer/math.h
 
 C:/Users/jbmdu/CLionProjects/nn/Layer/OutputLayer.h
 GenericLayer.h
 C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.h
 ../Global/Declarations.h
 C:/Users/jbmdu/CLionProjects/nn/Global/Declarations.h
+../Neuron/OutputLayerNeuron.h
+C:/Users/jbmdu/CLionProjects/nn/Neuron/OutputLayerNeuron.h
 
 C:/Users/jbmdu/CLionProjects/nn/Network/Network.cpp
 Network.h
@@ -113,6 +141,10 @@ GenericNeuron.h
 C:/Users/jbmdu/CLionProjects/nn/Neuron/GenericNeuron.h
 iostream
 -
+math.h
+C:/Users/jbmdu/CLionProjects/nn/Neuron/math.h
+../Algorithm/ActivationFunctions.h
+C:/Users/jbmdu/CLionProjects/nn/Algorithm/ActivationFunctions.h
 
 C:/Users/jbmdu/CLionProjects/nn/Neuron/GenericNeuron.h
 vector
@@ -131,6 +163,8 @@ GenericNeuron.h
 C:/Users/jbmdu/CLionProjects/nn/Neuron/GenericNeuron.h
 
 C:/Users/jbmdu/CLionProjects/nn/Neuron/InputLayerNeuron.cpp
+iostream
+-
 InputLayerNeuron.h
 C:/Users/jbmdu/CLionProjects/nn/Neuron/InputLayerNeuron.h
 
@@ -159,4 +193,6 @@ iostream
 -
 Global/Declarations.h
 C:/Users/jbmdu/CLionProjects/nn/Global/Declarations.h
+Algorithm/BackPropagator.h
+C:/Users/jbmdu/CLionProjects/nn/Algorithm/BackPropagator.h
 

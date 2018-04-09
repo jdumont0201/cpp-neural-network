@@ -15,3 +15,9 @@ InputLayer::InputLayer(RN & inputValues){
         d_neurons.push_back(nn);
     }
 }
+
+void InputLayer::updateOutput() {
+    for (int i=0;i<d_neurons.size();++i) {
+        d_neurons[i]->updateOutput();
+    }
+}

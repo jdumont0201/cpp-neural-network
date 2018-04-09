@@ -7,10 +7,12 @@
 
 #include "GenericLayer.h"
 #include "../Global/Declarations.h"
+#include "../Neuron/InputLayerNeuron.h"
 
 class InputLayer : public GenericLayer {
 public:
     explicit InputLayer(RN & inputValues);
+    void updateOutput() ;
 };
 
 

@@ -1,7 +1,6 @@
 //
 // Created by jbmdu on 08/04/2018.
 //
-
 #include "Network.h"
 #include "../Global/Declarations.h"
 #include <cassert>
@@ -50,7 +49,7 @@ void Network::createInputLayer() {
 void Network::createHiddenLayers() {
     //hidden layers
     for (int i = 1; i < d_layersSize.size() - 1; ++i) {
-        HiddenLayer hiddenLayer1(i, d_layers.size());
+        HiddenLayer hiddenLayer1(d_layers.size(), d_layersSize[i]);
         auto hiddenLayer2 = std::make_shared<HiddenLayer>(hiddenLayer1);
         d_layers.push_back(hiddenLayer2);
     }
@@ -65,9 +64,30 @@ void Network::linkNeurons() {
 
 
 }
-
-void Network::computeOutput() {
-    for (int i=1;i<d_layers.size();++i) {
-        d_layers[i]->computeOutput();
+std::vector<std::shared_ptr<GenericLayer>> Network::getLayers() const {
+    return d_layers;
+}
+void Network::updateOutput() {
+    for (int i=0;i<d_layers.size();++i) {
+        d_layers[i]->updateOutput();
     }
+}
+std::ostream &operator<<(std::ostream &os, const Network &c){
+    os << "-----------------------\n";
+    for (auto x : c.getLayers()) {
+        os << *x ;
+    }
+    return os;
+}
+double Network::computeError() {
+
+    return d_layers.back()->computeError();
+}
+
+int Network::getNbLayers() {
+    return d_layers.size();
+}
+
+double Network::getTargetValue(int i) {
+    return d_targetValues[i];
 }

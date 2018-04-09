@@ -6,7 +6,7 @@
 #include <vector>
 #include "../Neuron/GenericNeuron.h"
 
-std::vector<std::shared_ptr<GenericNeuron>> GenericLayer::getNeurons() {
+std::vector<std::shared_ptr<GenericNeuron>> GenericLayer::getNeurons() const {
     return d_neurons;
 }
 
@@ -15,14 +15,30 @@ void GenericLayer::linkNeuronsBackwards(std::shared_ptr<GenericLayer> &prevLayer
         n->linkNeuronsBackwards(prevLayer);
     }
 }
-void GenericLayer::setLayerId(int layerId){
-    d_layerId=layerId;
+
+void GenericLayer::setLayerId(int layerId) {
+    d_layerId = layerId;
 }
-int GenericLayer::getLayerId(){
+
+int GenericLayer::getLayerId() {
     return d_layerId;
 }
-void GenericLayer::computeOutput() {
-    for (int i=1;i<d_neurons.size();++i) {
-        d_neurons[i]->computeOutput();
+
+double GenericLayer::computeError() {
+    return 0.;
+}
+void GenericLayer::updateOutput() {
+    for (auto n : d_neurons) {
+        n->updateOutput();
     }
+}
+
+std::ostream &operator<<(std::ostream &os, const GenericLayer &c) {
+    for (auto n : c.getNeurons()) {
+        os << *n << "\n";
+    }
+    return os;
+}
+int GenericLayer::getSize() const{
+    return d_neurons.size();
 }

@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/jbmdu/CLionProjects/nn/Algorithm/ActivationFunctions.cpp" "C:/Users/jbmdu/CLionProjects/nn/cmake-build-debug/CMakeFiles/nn.dir/Algorithm/ActivationFunctions.cpp.obj"
+  "C:/Users/jbmdu/CLionProjects/nn/Algorithm/BackPropagator.cpp" "C:/Users/jbmdu/CLionProjects/nn/cmake-build-debug/CMakeFiles/nn.dir/Algorithm/BackPropagator.cpp.obj"
   "C:/Users/jbmdu/CLionProjects/nn/Connection/Connection.cpp" "C:/Users/jbmdu/CLionProjects/nn/cmake-build-debug/CMakeFiles/nn.dir/Connection/Connection.cpp.obj"
   "C:/Users/jbmdu/CLionProjects/nn/Global/Global.cpp" "C:/Users/jbmdu/CLionProjects/nn/cmake-build-debug/CMakeFiles/nn.dir/Global/Global.cpp.obj"
   "C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.cpp" "C:/Users/jbmdu/CLionProjects/nn/cmake-build-debug/CMakeFiles/nn.dir/Layer/GenericLayer.cpp.obj"

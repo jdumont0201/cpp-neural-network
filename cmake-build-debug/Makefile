@@ -122,6 +122,60 @@ nn/fast:
 	$(MAKE) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/build
 .PHONY : nn/fast
 
+Algorithm/ActivationFunctions.obj: Algorithm/ActivationFunctions.cpp.obj
+
+.PHONY : Algorithm/ActivationFunctions.obj
+
+# target to build an object file
+Algorithm/ActivationFunctions.cpp.obj:
+	$(MAKE) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/Algorithm/ActivationFunctions.cpp.obj
+.PHONY : Algorithm/ActivationFunctions.cpp.obj
+
+Algorithm/ActivationFunctions.i: Algorithm/ActivationFunctions.cpp.i
+
+.PHONY : Algorithm/ActivationFunctions.i
+
+# target to preprocess a source file
+Algorithm/ActivationFunctions.cpp.i:
+	$(MAKE) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/Algorithm/ActivationFunctions.cpp.i
+.PHONY : Algorithm/ActivationFunctions.cpp.i
+
+Algorithm/ActivationFunctions.s: Algorithm/ActivationFunctions.cpp.s
+
+.PHONY : Algorithm/ActivationFunctions.s
+
+# target to generate assembly for a file
+Algorithm/ActivationFunctions.cpp.s:
+	$(MAKE) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/Algorithm/ActivationFunctions.cpp.s
+.PHONY : Algorithm/ActivationFunctions.cpp.s
+
+Algorithm/BackPropagator.obj: Algorithm/BackPropagator.cpp.obj
+
+.PHONY : Algorithm/BackPropagator.obj
+
+# target to build an object file
+Algorithm/BackPropagator.cpp.obj:
+	$(MAKE) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/Algorithm/BackPropagator.cpp.obj
+.PHONY : Algorithm/BackPropagator.cpp.obj
+
+Algorithm/BackPropagator.i: Algorithm/BackPropagator.cpp.i
+
+.PHONY : Algorithm/BackPropagator.i
+
+# target to preprocess a source file
+Algorithm/BackPropagator.cpp.i:
+	$(MAKE) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/Algorithm/BackPropagator.cpp.i
+.PHONY : Algorithm/BackPropagator.cpp.i
+
+Algorithm/BackPropagator.s: Algorithm/BackPropagator.cpp.s
+
+.PHONY : Algorithm/BackPropagator.s
+
+# target to generate assembly for a file
+Algorithm/BackPropagator.cpp.s:
+	$(MAKE) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/Algorithm/BackPropagator.cpp.s
+.PHONY : Algorithm/BackPropagator.cpp.s
+
 Connection/Connection.obj: Connection/Connection.cpp.obj
 
 .PHONY : Connection/Connection.obj
@@ -455,6 +509,12 @@ help:
 	@echo ... rebuild_cache
 	@echo ... nn
 	@echo ... edit_cache
+	@echo ... Algorithm/ActivationFunctions.obj
+	@echo ... Algorithm/ActivationFunctions.i
+	@echo ... Algorithm/ActivationFunctions.s
+	@echo ... Algorithm/BackPropagator.obj
+	@echo ... Algorithm/BackPropagator.i
+	@echo ... Algorithm/BackPropagator.s
 	@echo ... Connection/Connection.obj
 	@echo ... Connection/Connection.i
 	@echo ... Connection/Connection.s

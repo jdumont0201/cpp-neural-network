@@ -344,6 +344,54 @@ CMakeFiles/nn.dir/Connection/Connection.cpp.obj.provides: CMakeFiles/nn.dir/Conn
 CMakeFiles/nn.dir/Connection/Connection.cpp.obj.provides.build: CMakeFiles/nn.dir/Connection/Connection.cpp.obj
 
 
+CMakeFiles/nn.dir/Algorithm/ActivationFunctions.cpp.obj: CMakeFiles/nn.dir/flags.make
+CMakeFiles/nn.dir/Algorithm/ActivationFunctions.cpp.obj: ../Algorithm/ActivationFunctions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jbmdu\CLionProjects\nn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/nn.dir/Algorithm/ActivationFunctions.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nn.dir\Algorithm\ActivationFunctions.cpp.obj -c C:\Users\jbmdu\CLionProjects\nn\Algorithm\ActivationFunctions.cpp
+
+CMakeFiles/nn.dir/Algorithm/ActivationFunctions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nn.dir/Algorithm/ActivationFunctions.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jbmdu\CLionProjects\nn\Algorithm\ActivationFunctions.cpp > CMakeFiles\nn.dir\Algorithm\ActivationFunctions.cpp.i
+
+CMakeFiles/nn.dir/Algorithm/ActivationFunctions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nn.dir/Algorithm/ActivationFunctions.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jbmdu\CLionProjects\nn\Algorithm\ActivationFunctions.cpp -o CMakeFiles\nn.dir\Algorithm\ActivationFunctions.cpp.s
+
+CMakeFiles/nn.dir/Algorithm/ActivationFunctions.cpp.obj.requires:
+
+.PHONY : CMakeFiles/nn.dir/Algorithm/ActivationFunctions.cpp.obj.requires
+
+CMakeFiles/nn.dir/Algorithm/ActivationFunctions.cpp.obj.provides: CMakeFiles/nn.dir/Algorithm/ActivationFunctions.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/Algorithm/ActivationFunctions.cpp.obj.provides.build
+.PHONY : CMakeFiles/nn.dir/Algorithm/ActivationFunctions.cpp.obj.provides
+
+CMakeFiles/nn.dir/Algorithm/ActivationFunctions.cpp.obj.provides.build: CMakeFiles/nn.dir/Algorithm/ActivationFunctions.cpp.obj
+
+
+CMakeFiles/nn.dir/Algorithm/BackPropagator.cpp.obj: CMakeFiles/nn.dir/flags.make
+CMakeFiles/nn.dir/Algorithm/BackPropagator.cpp.obj: ../Algorithm/BackPropagator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jbmdu\CLionProjects\nn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/nn.dir/Algorithm/BackPropagator.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nn.dir\Algorithm\BackPropagator.cpp.obj -c C:\Users\jbmdu\CLionProjects\nn\Algorithm\BackPropagator.cpp
+
+CMakeFiles/nn.dir/Algorithm/BackPropagator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nn.dir/Algorithm/BackPropagator.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jbmdu\CLionProjects\nn\Algorithm\BackPropagator.cpp > CMakeFiles\nn.dir\Algorithm\BackPropagator.cpp.i
+
+CMakeFiles/nn.dir/Algorithm/BackPropagator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nn.dir/Algorithm/BackPropagator.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jbmdu\CLionProjects\nn\Algorithm\BackPropagator.cpp -o CMakeFiles\nn.dir\Algorithm\BackPropagator.cpp.s
+
+CMakeFiles/nn.dir/Algorithm/BackPropagator.cpp.obj.requires:
+
+.PHONY : CMakeFiles/nn.dir/Algorithm/BackPropagator.cpp.obj.requires
+
+CMakeFiles/nn.dir/Algorithm/BackPropagator.cpp.obj.provides: CMakeFiles/nn.dir/Algorithm/BackPropagator.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/Algorithm/BackPropagator.cpp.obj.provides.build
+.PHONY : CMakeFiles/nn.dir/Algorithm/BackPropagator.cpp.obj.provides
+
+CMakeFiles/nn.dir/Algorithm/BackPropagator.cpp.obj.provides.build: CMakeFiles/nn.dir/Algorithm/BackPropagator.cpp.obj
+
+
 # Object files for target nn
 nn_OBJECTS = \
 "CMakeFiles/nn.dir/main.cpp.obj" \
@@ -357,7 +405,9 @@ nn_OBJECTS = \
 "CMakeFiles/nn.dir/Layer/InputLayer.cpp.obj" \
 "CMakeFiles/nn.dir/Layer/OutputLayer.cpp.obj" \
 "CMakeFiles/nn.dir/Network/Network.cpp.obj" \
-"CMakeFiles/nn.dir/Connection/Connection.cpp.obj"
+"CMakeFiles/nn.dir/Connection/Connection.cpp.obj" \
+"CMakeFiles/nn.dir/Algorithm/ActivationFunctions.cpp.obj" \
+"CMakeFiles/nn.dir/Algorithm/BackPropagator.cpp.obj"
 
 # External object files for target nn
 nn_EXTERNAL_OBJECTS =
@@ -374,11 +424,13 @@ nn.exe: CMakeFiles/nn.dir/Layer/InputLayer.cpp.obj
 nn.exe: CMakeFiles/nn.dir/Layer/OutputLayer.cpp.obj
 nn.exe: CMakeFiles/nn.dir/Network/Network.cpp.obj
 nn.exe: CMakeFiles/nn.dir/Connection/Connection.cpp.obj
+nn.exe: CMakeFiles/nn.dir/Algorithm/ActivationFunctions.cpp.obj
+nn.exe: CMakeFiles/nn.dir/Algorithm/BackPropagator.cpp.obj
 nn.exe: CMakeFiles/nn.dir/build.make
 nn.exe: CMakeFiles/nn.dir/linklibs.rsp
 nn.exe: CMakeFiles/nn.dir/objects1.rsp
 nn.exe: CMakeFiles/nn.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\jbmdu\CLionProjects\nn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable nn.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\jbmdu\CLionProjects\nn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable nn.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\nn.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -398,6 +450,8 @@ CMakeFiles/nn.dir/requires: CMakeFiles/nn.dir/Layer/InputLayer.cpp.obj.requires
 CMakeFiles/nn.dir/requires: CMakeFiles/nn.dir/Layer/OutputLayer.cpp.obj.requires
 CMakeFiles/nn.dir/requires: CMakeFiles/nn.dir/Network/Network.cpp.obj.requires
 CMakeFiles/nn.dir/requires: CMakeFiles/nn.dir/Connection/Connection.cpp.obj.requires
+CMakeFiles/nn.dir/requires: CMakeFiles/nn.dir/Algorithm/ActivationFunctions.cpp.obj.requires
+CMakeFiles/nn.dir/requires: CMakeFiles/nn.dir/Algorithm/BackPropagator.cpp.obj.requires
 
 .PHONY : CMakeFiles/nn.dir/requires
 
