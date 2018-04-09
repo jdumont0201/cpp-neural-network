@@ -4,13 +4,13 @@
 
 #include "OutputLayer.h"
 #include "../Neuron/OutputLayerNeuron.h"
+#include <iostream>
 
-OutputLayer::OutputLayer(RN targetValues){
-    for(double i : targetValues){
-        OutputLayerNeuron n;
-        Connection c;
-        std::vector<Connection> inputs={c};
-        n.setInputs(inputs);
-        neurons.push_back(n);
+OutputLayer::OutputLayer(int layerId,RN & targetValues){
+    setLayerId(layerId);
+    std::cout << "L"<<layerId<< std::endl;
+    for(int i=0;i<targetValues.size();++i){
+        auto n = std::make_shared<OutputLayerNeuron>(layerId,i,targetValues[i]);
+        d_neurons.push_back(n);
     }
 }

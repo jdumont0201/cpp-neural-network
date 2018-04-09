@@ -12,7 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/jbmdu/CLionProjects/nn/Layer/OutputLayer.cpp" "C:/Users/jbmdu/CLionProjects/nn/cmake-build-debug/CMakeFiles/nn.dir/Layer/OutputLayer.cpp.obj"
   "C:/Users/jbmdu/CLionProjects/nn/Network/Network.cpp" "C:/Users/jbmdu/CLionProjects/nn/cmake-build-debug/CMakeFiles/nn.dir/Network/Network.cpp.obj"
   "C:/Users/jbmdu/CLionProjects/nn/Neuron/GenericNeuron.cpp" "C:/Users/jbmdu/CLionProjects/nn/cmake-build-debug/CMakeFiles/nn.dir/Neuron/GenericNeuron.cpp.obj"
-  "C:/Users/jbmdu/CLionProjects/nn/Neuron/InnerLayerNeuron.cpp" "C:/Users/jbmdu/CLionProjects/nn/cmake-build-debug/CMakeFiles/nn.dir/Neuron/InnerLayerNeuron.cpp.obj"
+  "C:/Users/jbmdu/CLionProjects/nn/Neuron/HiddenLayerNeuron.cpp" "C:/Users/jbmdu/CLionProjects/nn/cmake-build-debug/CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.obj"
   "C:/Users/jbmdu/CLionProjects/nn/Neuron/InputLayerNeuron.cpp" "C:/Users/jbmdu/CLionProjects/nn/cmake-build-debug/CMakeFiles/nn.dir/Neuron/InputLayerNeuron.cpp.obj"
   "C:/Users/jbmdu/CLionProjects/nn/Neuron/OutputLayerNeuron.cpp" "C:/Users/jbmdu/CLionProjects/nn/cmake-build-debug/CMakeFiles/nn.dir/Neuron/OutputLayerNeuron.cpp.obj"
   "C:/Users/jbmdu/CLionProjects/nn/main.cpp" "C:/Users/jbmdu/CLionProjects/nn/cmake-build-debug/CMakeFiles/nn.dir/main.cpp.obj"

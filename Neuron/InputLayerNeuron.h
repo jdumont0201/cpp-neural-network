@@ -12,7 +12,7 @@ class InputLayerNeuron : public GenericNeuron {
     double d_input;
 public:
     void setInput(double input);
-    InputLayerNeuron(double input);
+    InputLayerNeuron(int neuronId,double input);
 };
 
 

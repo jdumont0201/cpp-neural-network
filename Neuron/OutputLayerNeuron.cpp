@@ -4,8 +4,10 @@
 
 #include "OutputLayerNeuron.h"
 
-OutputLayerNeuron::OutputLayerNeuron(double target){
+OutputLayerNeuron::OutputLayerNeuron(int layerId,int neuronId,double target){
     setTarget(target);
+    setLayerId(layerId);
+    setNeuronId(neuronId);
 }
 
 void OutputLayerNeuron::setTarget(double target){

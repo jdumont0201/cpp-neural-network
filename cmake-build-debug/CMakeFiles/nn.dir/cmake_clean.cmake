@@ -4,7 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/nn.dir/Neuron/GenericNeuron.cpp.obj"
   "CMakeFiles/nn.dir/Neuron/InputLayerNeuron.cpp.obj"
   "CMakeFiles/nn.dir/Neuron/OutputLayerNeuron.cpp.obj"
-  "CMakeFiles/nn.dir/Neuron/InnerLayerNeuron.cpp.obj"
+  "CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.obj"
   "CMakeFiles/nn.dir/Layer/GenericLayer.cpp.obj"
   "CMakeFiles/nn.dir/Layer/HiddenLayer.cpp.obj"
   "CMakeFiles/nn.dir/Layer/InputLayer.cpp.obj"

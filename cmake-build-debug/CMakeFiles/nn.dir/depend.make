@@ -17,6 +17,7 @@ CMakeFiles/nn.dir/Layer/HiddenLayer.cpp.obj: ../Layer/GenericLayer.h
 CMakeFiles/nn.dir/Layer/HiddenLayer.cpp.obj: ../Layer/HiddenLayer.cpp
 CMakeFiles/nn.dir/Layer/HiddenLayer.cpp.obj: ../Layer/HiddenLayer.h
 CMakeFiles/nn.dir/Layer/HiddenLayer.cpp.obj: ../Neuron/GenericNeuron.h
+CMakeFiles/nn.dir/Layer/HiddenLayer.cpp.obj: ../Neuron/HiddenLayerNeuron.h
 
 CMakeFiles/nn.dir/Layer/InputLayer.cpp.obj: ../Connection/Connection.h
 CMakeFiles/nn.dir/Layer/InputLayer.cpp.obj: ../Global/Declarations.h
@@ -34,7 +35,6 @@ CMakeFiles/nn.dir/Layer/OutputLayer.cpp.obj: ../Layer/OutputLayer.h
 CMakeFiles/nn.dir/Layer/OutputLayer.cpp.obj: ../Neuron/GenericNeuron.h
 CMakeFiles/nn.dir/Layer/OutputLayer.cpp.obj: ../Neuron/OutputLayerNeuron.h
 
-CMakeFiles/nn.dir/Network/Network.cpp.obj: ../Connection/Connection.h
 CMakeFiles/nn.dir/Network/Network.cpp.obj: ../Global/Declarations.h
 CMakeFiles/nn.dir/Network/Network.cpp.obj: ../Layer/GenericLayer.h
 CMakeFiles/nn.dir/Network/Network.cpp.obj: ../Layer/HiddenLayer.h
@@ -42,28 +42,30 @@ CMakeFiles/nn.dir/Network/Network.cpp.obj: ../Layer/InputLayer.h
 CMakeFiles/nn.dir/Network/Network.cpp.obj: ../Layer/OutputLayer.h
 CMakeFiles/nn.dir/Network/Network.cpp.obj: ../Network/Network.cpp
 CMakeFiles/nn.dir/Network/Network.cpp.obj: ../Network/Network.h
-CMakeFiles/nn.dir/Network/Network.cpp.obj: ../Neuron/GenericNeuron.h
 
 CMakeFiles/nn.dir/Neuron/GenericNeuron.cpp.obj: ../Connection/Connection.h
+CMakeFiles/nn.dir/Neuron/GenericNeuron.cpp.obj: ../Layer/GenericLayer.h
 CMakeFiles/nn.dir/Neuron/GenericNeuron.cpp.obj: ../Neuron/GenericNeuron.cpp
 CMakeFiles/nn.dir/Neuron/GenericNeuron.cpp.obj: ../Neuron/GenericNeuron.h
 
-CMakeFiles/nn.dir/Neuron/InnerLayerNeuron.cpp.obj: ../Connection/Connection.h
-CMakeFiles/nn.dir/Neuron/InnerLayerNeuron.cpp.obj: ../Neuron/GenericNeuron.h
-CMakeFiles/nn.dir/Neuron/InnerLayerNeuron.cpp.obj: ../Neuron/InnerLayerNeuron.cpp
-CMakeFiles/nn.dir/Neuron/InnerLayerNeuron.cpp.obj: ../Neuron/InnerLayerNeuron.h
+CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.obj: ../Connection/Connection.h
+CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.obj: ../Layer/GenericLayer.h
+CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.obj: ../Neuron/GenericNeuron.h
+CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.obj: ../Neuron/HiddenLayerNeuron.cpp
+CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.obj: ../Neuron/HiddenLayerNeuron.h
 
 CMakeFiles/nn.dir/Neuron/InputLayerNeuron.cpp.obj: ../Connection/Connection.h
+CMakeFiles/nn.dir/Neuron/InputLayerNeuron.cpp.obj: ../Layer/GenericLayer.h
 CMakeFiles/nn.dir/Neuron/InputLayerNeuron.cpp.obj: ../Neuron/GenericNeuron.h
 CMakeFiles/nn.dir/Neuron/InputLayerNeuron.cpp.obj: ../Neuron/InputLayerNeuron.cpp
 CMakeFiles/nn.dir/Neuron/InputLayerNeuron.cpp.obj: ../Neuron/InputLayerNeuron.h
 
 CMakeFiles/nn.dir/Neuron/OutputLayerNeuron.cpp.obj: ../Connection/Connection.h
+CMakeFiles/nn.dir/Neuron/OutputLayerNeuron.cpp.obj: ../Layer/GenericLayer.h
 CMakeFiles/nn.dir/Neuron/OutputLayerNeuron.cpp.obj: ../Neuron/GenericNeuron.h
 CMakeFiles/nn.dir/Neuron/OutputLayerNeuron.cpp.obj: ../Neuron/OutputLayerNeuron.cpp
 CMakeFiles/nn.dir/Neuron/OutputLayerNeuron.cpp.obj: ../Neuron/OutputLayerNeuron.h
 
-CMakeFiles/nn.dir/main.cpp.obj: ../Connection/Connection.h
 CMakeFiles/nn.dir/main.cpp.obj: ../Global/Declarations.h
 CMakeFiles/nn.dir/main.cpp.obj: ../Global/Global.h
 CMakeFiles/nn.dir/main.cpp.obj: ../Layer/GenericLayer.h
@@ -71,6 +73,5 @@ CMakeFiles/nn.dir/main.cpp.obj: ../Layer/HiddenLayer.h
 CMakeFiles/nn.dir/main.cpp.obj: ../Layer/InputLayer.h
 CMakeFiles/nn.dir/main.cpp.obj: ../Layer/OutputLayer.h
 CMakeFiles/nn.dir/main.cpp.obj: ../Network/Network.h
-CMakeFiles/nn.dir/main.cpp.obj: ../Neuron/GenericNeuron.h
 CMakeFiles/nn.dir/main.cpp.obj: ../main.cpp
 

@@ -9,6 +9,8 @@
 C:/Users/jbmdu/CLionProjects/nn/Connection/Connection.cpp
 Connection.h
 C:/Users/jbmdu/CLionProjects/nn/Connection/Connection.h
+memory
+-
 
 C:/Users/jbmdu/CLionProjects/nn/Connection/Connection.h
 memory
@@ -27,22 +29,34 @@ C:/Users/jbmdu/CLionProjects/nn/Global/Global.h
 C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.cpp
 GenericLayer.h
 C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.h
-
-C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.h
 vector
 -
 ../Neuron/GenericNeuron.h
 C:/Users/jbmdu/CLionProjects/nn/Neuron/GenericNeuron.h
 
+C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.h
+vector
+-
+memory
+-
+
 C:/Users/jbmdu/CLionProjects/nn/Layer/HiddenLayer.cpp
+iostream
+-
 HiddenLayer.h
 C:/Users/jbmdu/CLionProjects/nn/Layer/HiddenLayer.h
+../Neuron/HiddenLayerNeuron.h
+C:/Users/jbmdu/CLionProjects/nn/Neuron/HiddenLayerNeuron.h
 
 C:/Users/jbmdu/CLionProjects/nn/Layer/HiddenLayer.h
 GenericLayer.h
 C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.h
 
 C:/Users/jbmdu/CLionProjects/nn/Layer/InputLayer.cpp
+memory
+-
+iostream
+-
 InputLayer.h
 C:/Users/jbmdu/CLionProjects/nn/Layer/InputLayer.h
 ../Neuron/InputLayerNeuron.h
@@ -59,6 +73,8 @@ OutputLayer.h
 C:/Users/jbmdu/CLionProjects/nn/Layer/OutputLayer.h
 ../Neuron/OutputLayerNeuron.h
 C:/Users/jbmdu/CLionProjects/nn/Neuron/OutputLayerNeuron.h
+iostream
+-
 
 C:/Users/jbmdu/CLionProjects/nn/Layer/OutputLayer.h
 GenericLayer.h
@@ -69,7 +85,11 @@ C:/Users/jbmdu/CLionProjects/nn/Global/Declarations.h
 C:/Users/jbmdu/CLionProjects/nn/Network/Network.cpp
 Network.h
 C:/Users/jbmdu/CLionProjects/nn/Network/Network.h
-assert.h
+../Global/Declarations.h
+C:/Users/jbmdu/CLionProjects/nn/Global/Declarations.h
+cassert
+-
+iostream
 -
 
 C:/Users/jbmdu/CLionProjects/nn/Network/Network.h
@@ -91,18 +111,22 @@ C:/Users/jbmdu/CLionProjects/nn/Global/Declarations.h
 C:/Users/jbmdu/CLionProjects/nn/Neuron/GenericNeuron.cpp
 GenericNeuron.h
 C:/Users/jbmdu/CLionProjects/nn/Neuron/GenericNeuron.h
+iostream
+-
 
 C:/Users/jbmdu/CLionProjects/nn/Neuron/GenericNeuron.h
 vector
 -
 ../Connection/Connection.h
 C:/Users/jbmdu/CLionProjects/nn/Connection/Connection.h
+../Layer/GenericLayer.h
+C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.h
 
-C:/Users/jbmdu/CLionProjects/nn/Neuron/InnerLayerNeuron.cpp
-InnerLayerNeuron.h
-C:/Users/jbmdu/CLionProjects/nn/Neuron/InnerLayerNeuron.h
+C:/Users/jbmdu/CLionProjects/nn/Neuron/HiddenLayerNeuron.cpp
+HiddenLayerNeuron.h
+C:/Users/jbmdu/CLionProjects/nn/Neuron/HiddenLayerNeuron.h
 
-C:/Users/jbmdu/CLionProjects/nn/Neuron/InnerLayerNeuron.h
+C:/Users/jbmdu/CLionProjects/nn/Neuron/HiddenLayerNeuron.h
 GenericNeuron.h
 C:/Users/jbmdu/CLionProjects/nn/Neuron/GenericNeuron.h
 
@@ -131,4 +155,8 @@ Global/Global.h
 C:/Users/jbmdu/CLionProjects/nn/Global/Global.h
 Network/Network.h
 C:/Users/jbmdu/CLionProjects/nn/Network/Network.h
+iostream
+-
+Global/Declarations.h
+C:/Users/jbmdu/CLionProjects/nn/Global/Declarations.h
 

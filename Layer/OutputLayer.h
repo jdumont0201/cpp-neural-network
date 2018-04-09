@@ -12,7 +12,7 @@
 class OutputLayer : public GenericLayer{
 
 public :
-explicit OutputLayer(RN targetValues);
+explicit OutputLayer(int layerId,RN & targetValues);
 
 
 };

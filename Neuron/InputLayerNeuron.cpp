@@ -8,6 +8,9 @@ void  InputLayerNeuron::setInput(double input){
     d_input=input;
 }
 
-InputLayerNeuron::InputLayerNeuron(double input){
+InputLayerNeuron::InputLayerNeuron(int neuronId,double input){
     setInput(input);
+    setLayerId(0);
+    setNeuronId(neuronId);
+
 }

@@ -176,28 +176,28 @@ CMakeFiles/nn.dir/Neuron/OutputLayerNeuron.cpp.obj.provides: CMakeFiles/nn.dir/N
 CMakeFiles/nn.dir/Neuron/OutputLayerNeuron.cpp.obj.provides.build: CMakeFiles/nn.dir/Neuron/OutputLayerNeuron.cpp.obj
 
 
-CMakeFiles/nn.dir/Neuron/InnerLayerNeuron.cpp.obj: CMakeFiles/nn.dir/flags.make
-CMakeFiles/nn.dir/Neuron/InnerLayerNeuron.cpp.obj: ../Neuron/InnerLayerNeuron.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jbmdu\CLionProjects\nn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/nn.dir/Neuron/InnerLayerNeuron.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nn.dir\Neuron\InnerLayerNeuron.cpp.obj -c C:\Users\jbmdu\CLionProjects\nn\Neuron\InnerLayerNeuron.cpp
+CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.obj: CMakeFiles/nn.dir/flags.make
+CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.obj: ../Neuron/HiddenLayerNeuron.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jbmdu\CLionProjects\nn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nn.dir\Neuron\HiddenLayerNeuron.cpp.obj -c C:\Users\jbmdu\CLionProjects\nn\Neuron\HiddenLayerNeuron.cpp
 
-CMakeFiles/nn.dir/Neuron/InnerLayerNeuron.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nn.dir/Neuron/InnerLayerNeuron.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jbmdu\CLionProjects\nn\Neuron\InnerLayerNeuron.cpp > CMakeFiles\nn.dir\Neuron\InnerLayerNeuron.cpp.i
+CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jbmdu\CLionProjects\nn\Neuron\HiddenLayerNeuron.cpp > CMakeFiles\nn.dir\Neuron\HiddenLayerNeuron.cpp.i
 
-CMakeFiles/nn.dir/Neuron/InnerLayerNeuron.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nn.dir/Neuron/InnerLayerNeuron.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jbmdu\CLionProjects\nn\Neuron\InnerLayerNeuron.cpp -o CMakeFiles\nn.dir\Neuron\InnerLayerNeuron.cpp.s
+CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jbmdu\CLionProjects\nn\Neuron\HiddenLayerNeuron.cpp -o CMakeFiles\nn.dir\Neuron\HiddenLayerNeuron.cpp.s
 
-CMakeFiles/nn.dir/Neuron/InnerLayerNeuron.cpp.obj.requires:
+CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.obj.requires:
 
-.PHONY : CMakeFiles/nn.dir/Neuron/InnerLayerNeuron.cpp.obj.requires
+.PHONY : CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.obj.requires
 
-CMakeFiles/nn.dir/Neuron/InnerLayerNeuron.cpp.obj.provides: CMakeFiles/nn.dir/Neuron/InnerLayerNeuron.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/Neuron/InnerLayerNeuron.cpp.obj.provides.build
-.PHONY : CMakeFiles/nn.dir/Neuron/InnerLayerNeuron.cpp.obj.provides
+CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.obj.provides: CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.obj.provides.build
+.PHONY : CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.obj.provides
 
-CMakeFiles/nn.dir/Neuron/InnerLayerNeuron.cpp.obj.provides.build: CMakeFiles/nn.dir/Neuron/InnerLayerNeuron.cpp.obj
+CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.obj.provides.build: CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.obj
 
 
 CMakeFiles/nn.dir/Layer/GenericLayer.cpp.obj: CMakeFiles/nn.dir/flags.make
@@ -351,7 +351,7 @@ nn_OBJECTS = \
 "CMakeFiles/nn.dir/Neuron/GenericNeuron.cpp.obj" \
 "CMakeFiles/nn.dir/Neuron/InputLayerNeuron.cpp.obj" \
 "CMakeFiles/nn.dir/Neuron/OutputLayerNeuron.cpp.obj" \
-"CMakeFiles/nn.dir/Neuron/InnerLayerNeuron.cpp.obj" \
+"CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.obj" \
 "CMakeFiles/nn.dir/Layer/GenericLayer.cpp.obj" \
 "CMakeFiles/nn.dir/Layer/HiddenLayer.cpp.obj" \
 "CMakeFiles/nn.dir/Layer/InputLayer.cpp.obj" \
@@ -367,7 +367,7 @@ nn.exe: CMakeFiles/nn.dir/Global/Global.cpp.obj
 nn.exe: CMakeFiles/nn.dir/Neuron/GenericNeuron.cpp.obj
 nn.exe: CMakeFiles/nn.dir/Neuron/InputLayerNeuron.cpp.obj
 nn.exe: CMakeFiles/nn.dir/Neuron/OutputLayerNeuron.cpp.obj
-nn.exe: CMakeFiles/nn.dir/Neuron/InnerLayerNeuron.cpp.obj
+nn.exe: CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.obj
 nn.exe: CMakeFiles/nn.dir/Layer/GenericLayer.cpp.obj
 nn.exe: CMakeFiles/nn.dir/Layer/HiddenLayer.cpp.obj
 nn.exe: CMakeFiles/nn.dir/Layer/InputLayer.cpp.obj
@@ -391,7 +391,7 @@ CMakeFiles/nn.dir/requires: CMakeFiles/nn.dir/Global/Global.cpp.obj.requires
 CMakeFiles/nn.dir/requires: CMakeFiles/nn.dir/Neuron/GenericNeuron.cpp.obj.requires
 CMakeFiles/nn.dir/requires: CMakeFiles/nn.dir/Neuron/InputLayerNeuron.cpp.obj.requires
 CMakeFiles/nn.dir/requires: CMakeFiles/nn.dir/Neuron/OutputLayerNeuron.cpp.obj.requires
-CMakeFiles/nn.dir/requires: CMakeFiles/nn.dir/Neuron/InnerLayerNeuron.cpp.obj.requires
+CMakeFiles/nn.dir/requires: CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.obj.requires
 CMakeFiles/nn.dir/requires: CMakeFiles/nn.dir/Layer/GenericLayer.cpp.obj.requires
 CMakeFiles/nn.dir/requires: CMakeFiles/nn.dir/Layer/HiddenLayer.cpp.obj.requires
 CMakeFiles/nn.dir/requires: CMakeFiles/nn.dir/Layer/InputLayer.cpp.obj.requires

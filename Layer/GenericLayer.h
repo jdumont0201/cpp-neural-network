@@ -6,11 +6,21 @@
 #define NN_GENERICLAYER_H
 
 #include <vector>
-#include "../Neuron/GenericNeuron.h"
+#include <memory>
+
+class GenericNeuron;
+
 
 class GenericLayer {
+    int d_layerId;
 protected :
-    std::vector<GenericNeuron> neurons;
+    std::vector<std::shared_ptr<GenericNeuron>> d_neurons;
+public:
+    std::vector<std::shared_ptr<GenericNeuron>> getNeurons();
+    void linkNeuronsBackwards(std::shared_ptr<GenericLayer> &prevLayer);
+    void setLayerId(int layerId);
+    int getLayerId();
+    void computeOutput() ;
 };
 
 

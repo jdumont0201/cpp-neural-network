@@ -9,7 +9,8 @@
 #include "GenericLayer.h"
 
 class HiddenLayer : public GenericLayer{
-
+public:
+    explicit HiddenLayer(int layerId,int layerSize);
 };
 
 

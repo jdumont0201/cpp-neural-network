@@ -133,10 +133,10 @@
 		<Unit filename="C:/Users/jbmdu/CLionProjects/nn/Neuron/GenericNeuron.h">
 			<Option target="nn"/>
 		</Unit>
-		<Unit filename="C:/Users/jbmdu/CLionProjects/nn/Neuron/InnerLayerNeuron.cpp">
+		<Unit filename="C:/Users/jbmdu/CLionProjects/nn/Neuron/HiddenLayerNeuron.cpp">
 			<Option target="nn"/>
 		</Unit>
-		<Unit filename="C:/Users/jbmdu/CLionProjects/nn/Neuron/InnerLayerNeuron.h">
+		<Unit filename="C:/Users/jbmdu/CLionProjects/nn/Neuron/HiddenLayerNeuron.h">
 			<Option target="nn"/>
 		</Unit>
 		<Unit filename="C:/Users/jbmdu/CLionProjects/nn/Neuron/InputLayerNeuron.cpp">

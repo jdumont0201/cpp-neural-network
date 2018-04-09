@@ -15,13 +15,23 @@
 #include "../Global/Declarations.h"
 
 class Network {
-    std::vector<GenericLayer> d_layers;
-    RN d_inputValues;
-    RN d_targetValues;
-    NN d_layersSize;
+    std::vector<std::shared_ptr<GenericLayer>> d_layers;
+    RN  d_inputValues;
+    RN  d_targetValues;
+    NN  d_layersSize;
 
 public:
-    Network(RN inputValues, RN targetValues, NN layersSize) ;
+    Network(RN & inputValues, RN & targetValues, NN & layersSize) ;
+    void init(RN & inputValues, RN & targetValues, NN & layersSize);
+    void createLayers();
+    void createHiddenLayers();
+    void createInputLayer();
+    void createOutputLayer();
+
+    void linkNeurons();
+
+    void computeOutput();
+
 };
 
 

@@ -9,10 +9,15 @@
 class GenericNeuron;
 
 class Connection {
-
     std::shared_ptr<GenericNeuron> d_from;
     std::shared_ptr<GenericNeuron> d_to;
     double d_weight;
+public:
+    Connection(std::shared_ptr<GenericNeuron> from,std::shared_ptr<GenericNeuron>  to,double weight);
+    std::shared_ptr<GenericNeuron> getFrom();
+    std::shared_ptr<GenericNeuron> getTo();
+    double getWeight();
+
 };
 
 

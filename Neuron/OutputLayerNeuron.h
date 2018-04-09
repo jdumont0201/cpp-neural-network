@@ -13,7 +13,7 @@ class OutputLayerNeuron : public GenericNeuron {
 protected:
     void setTarget(double target);
 public:
-    OutputLayerNeuron(double target);
+    OutputLayerNeuron(int layerId,int neuronId,double target);
 };
 
 

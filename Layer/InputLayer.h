@@ -10,7 +10,7 @@
 
 class InputLayer : public GenericLayer {
 public:
-    explicit InputLayer(RN inputValues);
+    explicit InputLayer(RN & inputValues);
 };
 
 

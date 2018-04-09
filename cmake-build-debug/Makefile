@@ -338,32 +338,32 @@ Neuron/GenericNeuron.cpp.s:
 	$(MAKE) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/Neuron/GenericNeuron.cpp.s
 .PHONY : Neuron/GenericNeuron.cpp.s
 
-Neuron/InnerLayerNeuron.obj: Neuron/InnerLayerNeuron.cpp.obj
+Neuron/HiddenLayerNeuron.obj: Neuron/HiddenLayerNeuron.cpp.obj
 
-.PHONY : Neuron/InnerLayerNeuron.obj
+.PHONY : Neuron/HiddenLayerNeuron.obj
 
 # target to build an object file
-Neuron/InnerLayerNeuron.cpp.obj:
-	$(MAKE) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/Neuron/InnerLayerNeuron.cpp.obj
-.PHONY : Neuron/InnerLayerNeuron.cpp.obj
+Neuron/HiddenLayerNeuron.cpp.obj:
+	$(MAKE) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.obj
+.PHONY : Neuron/HiddenLayerNeuron.cpp.obj
 
-Neuron/InnerLayerNeuron.i: Neuron/InnerLayerNeuron.cpp.i
+Neuron/HiddenLayerNeuron.i: Neuron/HiddenLayerNeuron.cpp.i
 
-.PHONY : Neuron/InnerLayerNeuron.i
+.PHONY : Neuron/HiddenLayerNeuron.i
 
 # target to preprocess a source file
-Neuron/InnerLayerNeuron.cpp.i:
-	$(MAKE) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/Neuron/InnerLayerNeuron.cpp.i
-.PHONY : Neuron/InnerLayerNeuron.cpp.i
+Neuron/HiddenLayerNeuron.cpp.i:
+	$(MAKE) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.i
+.PHONY : Neuron/HiddenLayerNeuron.cpp.i
 
-Neuron/InnerLayerNeuron.s: Neuron/InnerLayerNeuron.cpp.s
+Neuron/HiddenLayerNeuron.s: Neuron/HiddenLayerNeuron.cpp.s
 
-.PHONY : Neuron/InnerLayerNeuron.s
+.PHONY : Neuron/HiddenLayerNeuron.s
 
 # target to generate assembly for a file
-Neuron/InnerLayerNeuron.cpp.s:
-	$(MAKE) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/Neuron/InnerLayerNeuron.cpp.s
-.PHONY : Neuron/InnerLayerNeuron.cpp.s
+Neuron/HiddenLayerNeuron.cpp.s:
+	$(MAKE) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.s
+.PHONY : Neuron/HiddenLayerNeuron.cpp.s
 
 Neuron/InputLayerNeuron.obj: Neuron/InputLayerNeuron.cpp.obj
 
@@ -479,9 +479,9 @@ help:
 	@echo ... Neuron/GenericNeuron.obj
 	@echo ... Neuron/GenericNeuron.i
 	@echo ... Neuron/GenericNeuron.s
-	@echo ... Neuron/InnerLayerNeuron.obj
-	@echo ... Neuron/InnerLayerNeuron.i
-	@echo ... Neuron/InnerLayerNeuron.s
+	@echo ... Neuron/HiddenLayerNeuron.obj
+	@echo ... Neuron/HiddenLayerNeuron.i
+	@echo ... Neuron/HiddenLayerNeuron.s
 	@echo ... Neuron/InputLayerNeuron.obj
 	@echo ... Neuron/InputLayerNeuron.i
 	@echo ... Neuron/InputLayerNeuron.s
