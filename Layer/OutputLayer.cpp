@@ -14,10 +14,10 @@ OutputLayer::OutputLayer(int layerId,RN & targetValues){
         d_neurons.push_back(n);
     }
 }
-double OutputLayer::computeError(){//
-    double res=0.;
+Types::R OutputLayer::computeError(){//
+    R res=0.;
     for(auto n : d_neurons){
-        double e=n->computeError();
+        R e=n->computeError();
         res+=e*e;
     }
     return res/2./d_neurons.size();

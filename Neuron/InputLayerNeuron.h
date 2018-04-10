@@ -9,12 +9,13 @@
 #include "GenericNeuron.h"
 
 class InputLayerNeuron : public GenericNeuron {
-    double d_input;
+    typedef Types::R R;
+    R d_input;
 public:
-    void setInput(double input);
-    double getInput() const;
-    InputLayerNeuron(int neuronId,double input);
-    double computeOutput();
+    void setInput(R input);
+    R getInput() const;
+    InputLayerNeuron(int neuronId,R input);
+    R computeOutput();
 };
 
 

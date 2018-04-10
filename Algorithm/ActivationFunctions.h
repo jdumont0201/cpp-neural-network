@@ -5,11 +5,12 @@
 #ifndef NN_ACTIVATIONFUNCTIONS_H
 #define NN_ACTIVATIONFUNCTIONS_H
 
+#include "../Global/Types.h"
 
 class ActivationFunctions {
 public:
-    static double sigmoid(double x);
-    static double derivative_sigmoid(double x);
+    typedef Types::R R;
+    static R sigmoid(R x);
 };
 
 

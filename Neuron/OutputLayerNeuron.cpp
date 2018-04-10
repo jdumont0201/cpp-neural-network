@@ -4,16 +4,17 @@
 
 #include "OutputLayerNeuron.h"
 
-OutputLayerNeuron::OutputLayerNeuron(int layerId,int neuronId,double target){
+OutputLayerNeuron::OutputLayerNeuron(int layerId,int neuronId,R target){
     setTarget(target);
     setLayerId(layerId);
     setNeuronId(neuronId);
+    std::cout << "L"<<layerId<<"-N" <<neuronId<<": create"<< std::endl;
 }
 
-void OutputLayerNeuron::setTarget(double target){
+void OutputLayerNeuron::setTarget(R target){
     d_target=target;
 }
 
-double OutputLayerNeuron::computeError(){
+Types::R OutputLayerNeuron::computeError(){
     return d_target-getOutput();
 }

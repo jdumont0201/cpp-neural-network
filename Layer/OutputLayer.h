@@ -7,15 +7,17 @@
 
 
 #include "GenericLayer.h"
-#include "../Global/Declarations.h"
+#include "../Global/Types.h"
 #include "../Neuron/OutputLayerNeuron.h"
 
 class OutputLayer : public GenericLayer {
-    std::vector<std::shared_ptr<OutputLayerNeuron>> d_neurons;
+    typedef Types::R R;
+    typedef Types::RN RN;
+
 public :
     explicit OutputLayer(int layerId, RN &targetValues);
 
-    double computeError();
+    R  computeError();
 
 };
 

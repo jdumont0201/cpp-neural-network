@@ -100,13 +100,19 @@
 		<Unit filename="C:/Users/jbmdu/CLionProjects/nn/Connection/Connection.h">
 			<Option target="nn"/>
 		</Unit>
-		<Unit filename="C:/Users/jbmdu/CLionProjects/nn/Global/Declarations.h">
-			<Option target="nn"/>
-		</Unit>
 		<Unit filename="C:/Users/jbmdu/CLionProjects/nn/Global/Global.cpp">
 			<Option target="nn"/>
 		</Unit>
 		<Unit filename="C:/Users/jbmdu/CLionProjects/nn/Global/Global.h">
+			<Option target="nn"/>
+		</Unit>
+		<Unit filename="C:/Users/jbmdu/CLionProjects/nn/Global/Types.h">
+			<Option target="nn"/>
+		</Unit>
+		<Unit filename="C:/Users/jbmdu/CLionProjects/nn/Global/ddouble.cpp">
+			<Option target="nn"/>
+		</Unit>
+		<Unit filename="C:/Users/jbmdu/CLionProjects/nn/Global/ddouble.h">
 			<Option target="nn"/>
 		</Unit>
 		<Unit filename="C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.cpp">

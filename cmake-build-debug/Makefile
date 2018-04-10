@@ -230,6 +230,33 @@ Global/Global.cpp.s:
 	$(MAKE) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/Global/Global.cpp.s
 .PHONY : Global/Global.cpp.s
 
+Global/ddouble.obj: Global/ddouble.cpp.obj
+
+.PHONY : Global/ddouble.obj
+
+# target to build an object file
+Global/ddouble.cpp.obj:
+	$(MAKE) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/Global/ddouble.cpp.obj
+.PHONY : Global/ddouble.cpp.obj
+
+Global/ddouble.i: Global/ddouble.cpp.i
+
+.PHONY : Global/ddouble.i
+
+# target to preprocess a source file
+Global/ddouble.cpp.i:
+	$(MAKE) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/Global/ddouble.cpp.i
+.PHONY : Global/ddouble.cpp.i
+
+Global/ddouble.s: Global/ddouble.cpp.s
+
+.PHONY : Global/ddouble.s
+
+# target to generate assembly for a file
+Global/ddouble.cpp.s:
+	$(MAKE) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/Global/ddouble.cpp.s
+.PHONY : Global/ddouble.cpp.s
+
 Layer/GenericLayer.obj: Layer/GenericLayer.cpp.obj
 
 .PHONY : Layer/GenericLayer.obj
@@ -521,6 +548,9 @@ help:
 	@echo ... Global/Global.obj
 	@echo ... Global/Global.i
 	@echo ... Global/Global.s
+	@echo ... Global/ddouble.obj
+	@echo ... Global/ddouble.i
+	@echo ... Global/ddouble.s
 	@echo ... Layer/GenericLayer.obj
 	@echo ... Layer/GenericLayer.i
 	@echo ... Layer/GenericLayer.s

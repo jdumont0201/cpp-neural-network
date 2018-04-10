@@ -6,10 +6,11 @@
 #define NN_INPUTLAYER_H
 
 #include "GenericLayer.h"
-#include "../Global/Declarations.h"
+#include "../Global/Types.h"
 #include "../Neuron/InputLayerNeuron.h"
 
 class InputLayer : public GenericLayer {
+typedef Types::RN RN;
 public:
     explicit InputLayer(RN & inputValues);
     void updateOutput() ;

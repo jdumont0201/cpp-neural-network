@@ -9,12 +9,13 @@
 #include "GenericNeuron.h"
 
 class OutputLayerNeuron : public GenericNeuron {
-    double d_target;
+    typedef Types::R R;
+    R d_target;
 protected:
-    void setTarget(double target);
+    void setTarget(R target);
 public:
-    OutputLayerNeuron(int layerId,int neuronId,double target);
-    double computeError();
+    OutputLayerNeuron(int layerId,int neuronId,R target);
+    R computeError();
 };
 
 

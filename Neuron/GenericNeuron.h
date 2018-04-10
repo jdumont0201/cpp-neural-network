@@ -8,22 +8,25 @@
 #include <vector>
 #include "../Connection/Connection.h"
 #include "../Layer/GenericLayer.h"
+#include "../Global/Types.h"
 
 class GenericNeuron : public std::enable_shared_from_this<GenericNeuron>{
+    typedef Types::R R;
+
     int d_neuronId;
     int d_layerId;
-    double d_output;
+    R d_output;
     std::vector<Connection> d_backConnections;
 public:
-    const std::vector<Connection> &getBackConnections() const;
+     std::vector<Connection> &getBackConnections() ;
 
     void setD_backConnections(const std::vector<Connection> &d_backConnections);
 
 private:
     std::vector<Connection> d_fwdConnections;
 protected:
-    double activationFunction(double x);
-    double activationFunctionDerivative(double x);
+    R activationFunction(R x);
+
 public:
     //CONSTRUCTORS
     GenericNeuron(GenericNeuron* g);
@@ -32,9 +35,11 @@ public:
     //MANIPULATORS
     void setInputs(std::vector<Connection> backConnections);
     void linkNeuronsBackwards(std::shared_ptr<GenericLayer> prevLayer) ;
-    virtual double computeOutput();
+    virtual R computeOutput();
+    virtual R computeError();
+
     void updateOutput();
-    double computeSumOfInputs() ;
+    R computeSumOfInputs() ;
 
 
     //ACCESSORS
@@ -42,8 +47,8 @@ public:
     int getNeuronId() const;
     void setLayerId(int layerId);
     int getLayerId() const;
-    void setOutput(double output);
-    double getOutput() const;
+    void setOutput(R output);
+    R getOutput() const;
 };
 
 std::ostream& operator<<(std::ostream& os, const GenericNeuron& c);

@@ -11,8 +11,12 @@ ActivationFunctions.h
 C:/Users/jbmdu/CLionProjects/nn/Algorithm/ActivationFunctions.h
 math.h
 C:/Users/jbmdu/CLionProjects/nn/Algorithm/math.h
+../Global/Types.h
+C:/Users/jbmdu/CLionProjects/nn/Global/Types.h
 
 C:/Users/jbmdu/CLionProjects/nn/Algorithm/ActivationFunctions.h
+../Global/Types.h
+C:/Users/jbmdu/CLionProjects/nn/Global/Types.h
 
 C:/Users/jbmdu/CLionProjects/nn/Algorithm/BackPropagator.cpp
 BackPropagator.h
@@ -37,22 +41,54 @@ memory
 -
 iostream
 -
-
-C:/Users/jbmdu/CLionProjects/nn/Global/Declarations.h
-vector
--
+../Global/Types.h
+C:/Users/jbmdu/CLionProjects/nn/Global/Types.h
 
 C:/Users/jbmdu/CLionProjects/nn/Global/Global.cpp
 Global.h
 C:/Users/jbmdu/CLionProjects/nn/Global/Global.h
+iostream
+-
+vector
+-
+iterator
+-
 
 C:/Users/jbmdu/CLionProjects/nn/Global/Global.h
 
-C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.cpp
-GenericLayer.h
-C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.h
+C:/Users/jbmdu/CLionProjects/nn/Global/Types.h
 vector
 -
+ddouble.h
+C:/Users/jbmdu/CLionProjects/nn/Global/ddouble.h
+
+C:/Users/jbmdu/CLionProjects/nn/Global/ddouble.cpp
+ddouble.h
+C:/Users/jbmdu/CLionProjects/nn/Global/ddouble.h
+stdlib.h
+-
+cmath
+-
+iostream
+-
+ddouble.h
+C:/Users/jbmdu/CLionProjects/nn/Global/ddouble.h
+
+C:/Users/jbmdu/CLionProjects/nn/Global/ddouble.h
+stdlib.h
+-
+cmath
+-
+iostream
+-
+
+C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.cpp
+vector
+-
+cassert
+-
+GenericLayer.h
+C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.h
 ../Neuron/GenericNeuron.h
 C:/Users/jbmdu/CLionProjects/nn/Neuron/GenericNeuron.h
 
@@ -61,6 +97,8 @@ vector
 -
 memory
 -
+../Global/Types.h
+C:/Users/jbmdu/CLionProjects/nn/Global/Types.h
 
 C:/Users/jbmdu/CLionProjects/nn/Layer/HiddenLayer.cpp
 iostream
@@ -87,8 +125,8 @@ C:/Users/jbmdu/CLionProjects/nn/Neuron/InputLayerNeuron.h
 C:/Users/jbmdu/CLionProjects/nn/Layer/InputLayer.h
 GenericLayer.h
 C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.h
-../Global/Declarations.h
-C:/Users/jbmdu/CLionProjects/nn/Global/Declarations.h
+../Global/Types.h
+C:/Users/jbmdu/CLionProjects/nn/Global/Types.h
 ../Neuron/InputLayerNeuron.h
 C:/Users/jbmdu/CLionProjects/nn/Neuron/InputLayerNeuron.h
 
@@ -105,16 +143,16 @@ C:/Users/jbmdu/CLionProjects/nn/Layer/math.h
 C:/Users/jbmdu/CLionProjects/nn/Layer/OutputLayer.h
 GenericLayer.h
 C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.h
-../Global/Declarations.h
-C:/Users/jbmdu/CLionProjects/nn/Global/Declarations.h
+../Global/Types.h
+C:/Users/jbmdu/CLionProjects/nn/Global/Types.h
 ../Neuron/OutputLayerNeuron.h
 C:/Users/jbmdu/CLionProjects/nn/Neuron/OutputLayerNeuron.h
 
 C:/Users/jbmdu/CLionProjects/nn/Network/Network.cpp
 Network.h
 C:/Users/jbmdu/CLionProjects/nn/Network/Network.h
-../Global/Declarations.h
-C:/Users/jbmdu/CLionProjects/nn/Global/Declarations.h
+../Global/Types.h
+C:/Users/jbmdu/CLionProjects/nn/Global/Types.h
 cassert
 -
 iostream
@@ -133,8 +171,8 @@ C:/Users/jbmdu/CLionProjects/nn/Layer/InputLayer.h
 C:/Users/jbmdu/CLionProjects/nn/Layer/HiddenLayer.h
 ../Layer/OutputLayer.h
 C:/Users/jbmdu/CLionProjects/nn/Layer/OutputLayer.h
-../Global/Declarations.h
-C:/Users/jbmdu/CLionProjects/nn/Global/Declarations.h
+../Global/Types.h
+C:/Users/jbmdu/CLionProjects/nn/Global/Types.h
 
 C:/Users/jbmdu/CLionProjects/nn/Neuron/GenericNeuron.cpp
 GenericNeuron.h
@@ -153,6 +191,8 @@ vector
 C:/Users/jbmdu/CLionProjects/nn/Connection/Connection.h
 ../Layer/GenericLayer.h
 C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.h
+../Global/Types.h
+C:/Users/jbmdu/CLionProjects/nn/Global/Types.h
 
 C:/Users/jbmdu/CLionProjects/nn/Neuron/HiddenLayerNeuron.cpp
 HiddenLayerNeuron.h
@@ -191,8 +231,10 @@ Network/Network.h
 C:/Users/jbmdu/CLionProjects/nn/Network/Network.h
 iostream
 -
-Global/Declarations.h
-C:/Users/jbmdu/CLionProjects/nn/Global/Declarations.h
+Global/Types.h
+C:/Users/jbmdu/CLionProjects/nn/Global/Types.h
 Algorithm/BackPropagator.h
 C:/Users/jbmdu/CLionProjects/nn/Algorithm/BackPropagator.h
+Global/Types.h
+C:/Users/jbmdu/CLionProjects/nn/Global/Types.h
 

@@ -9,12 +9,15 @@
 #include "../Network/Network.h"
 
 class BackPropagator {
+    typedef Types::R R;
+    typedef Types::RN RN;
+    typedef Types::RNM RNM;
     double d_eps;
     int d_maxIterations;
-    double d_learningRate=0.1;
+    double d_learningRate=1;
     Network &d_N;
     void backPropagate();
-    void backPropagateLayer(int j);
+    void backPropagateLayer(int layerId, RNM & d);
 public:
     void run();
     BackPropagator(Network &N,double eps,int maxIterations);

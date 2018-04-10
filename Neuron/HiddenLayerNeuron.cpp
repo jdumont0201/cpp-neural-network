@@ -7,4 +7,5 @@
 HiddenLayerNeuron::HiddenLayerNeuron(int layerId,int neuronId){
     setLayerId(layerId);
     setNeuronId(neuronId);
+    std::cout << "L"<<layerId<<"-N" <<neuronId<<": create"<< std::endl;
 }

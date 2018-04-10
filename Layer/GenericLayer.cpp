@@ -2,8 +2,9 @@
 // Created by jbmdu on 08/04/2018.
 //
 
-#include "GenericLayer.h"
 #include <vector>
+#include <cassert>
+#include "GenericLayer.h"
 #include "../Neuron/GenericNeuron.h"
 
 std::vector<std::shared_ptr<GenericNeuron>> GenericLayer::getNeurons() const {
@@ -24,7 +25,7 @@ int GenericLayer::getLayerId() {
     return d_layerId;
 }
 
-double GenericLayer::computeError() {
+GenericLayer::R GenericLayer::computeError() {
     return 0.;
 }
 void GenericLayer::updateOutput() {
@@ -41,4 +42,8 @@ std::ostream &operator<<(std::ostream &os, const GenericLayer &c) {
 }
 int GenericLayer::getSize() const{
     return d_neurons.size();
+}
+std::shared_ptr<GenericNeuron> GenericLayer::getNeuron(int i) const{
+    assert(i<d_neurons.size());
+    return d_neurons[i];
 }

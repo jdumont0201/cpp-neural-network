@@ -13,6 +13,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/nn.dir/Connection/Connection.cpp.obj"
   "CMakeFiles/nn.dir/Algorithm/ActivationFunctions.cpp.obj"
   "CMakeFiles/nn.dir/Algorithm/BackPropagator.cpp.obj"
+  "CMakeFiles/nn.dir/Global/ddouble.cpp.obj"
   "nn.pdb"
   "nn.exe"
   "nn.exe.manifest"

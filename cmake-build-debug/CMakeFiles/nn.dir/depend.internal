@@ -4,11 +4,14 @@
 CMakeFiles/nn.dir/Algorithm/ActivationFunctions.cpp.obj
  C:/Users/jbmdu/CLionProjects/nn/Algorithm/ActivationFunctions.cpp
  C:/Users/jbmdu/CLionProjects/nn/Algorithm/ActivationFunctions.h
+ C:/Users/jbmdu/CLionProjects/nn/Global/Types.h
+ C:/Users/jbmdu/CLionProjects/nn/Global/ddouble.h
 CMakeFiles/nn.dir/Algorithm/BackPropagator.cpp.obj
  C:/Users/jbmdu/CLionProjects/nn/Algorithm/BackPropagator.cpp
  C:/Users/jbmdu/CLionProjects/nn/Algorithm/BackPropagator.h
  C:/Users/jbmdu/CLionProjects/nn/Connection/Connection.h
- C:/Users/jbmdu/CLionProjects/nn/Global/Declarations.h
+ C:/Users/jbmdu/CLionProjects/nn/Global/Types.h
+ C:/Users/jbmdu/CLionProjects/nn/Global/ddouble.h
  C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.h
  C:/Users/jbmdu/CLionProjects/nn/Layer/HiddenLayer.h
  C:/Users/jbmdu/CLionProjects/nn/Layer/InputLayer.h
@@ -20,18 +23,27 @@ CMakeFiles/nn.dir/Algorithm/BackPropagator.cpp.obj
 CMakeFiles/nn.dir/Connection/Connection.cpp.obj
  C:/Users/jbmdu/CLionProjects/nn/Connection/Connection.cpp
  C:/Users/jbmdu/CLionProjects/nn/Connection/Connection.h
+ C:/Users/jbmdu/CLionProjects/nn/Global/Types.h
+ C:/Users/jbmdu/CLionProjects/nn/Global/ddouble.h
  C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.h
  C:/Users/jbmdu/CLionProjects/nn/Neuron/GenericNeuron.h
 CMakeFiles/nn.dir/Global/Global.cpp.obj
  C:/Users/jbmdu/CLionProjects/nn/Global/Global.cpp
  C:/Users/jbmdu/CLionProjects/nn/Global/Global.h
+CMakeFiles/nn.dir/Global/ddouble.cpp.obj
+ C:/Users/jbmdu/CLionProjects/nn/Global/ddouble.cpp
+ C:/Users/jbmdu/CLionProjects/nn/Global/ddouble.h
 CMakeFiles/nn.dir/Layer/GenericLayer.cpp.obj
  C:/Users/jbmdu/CLionProjects/nn/Connection/Connection.h
+ C:/Users/jbmdu/CLionProjects/nn/Global/Types.h
+ C:/Users/jbmdu/CLionProjects/nn/Global/ddouble.h
  C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.cpp
  C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.h
  C:/Users/jbmdu/CLionProjects/nn/Neuron/GenericNeuron.h
 CMakeFiles/nn.dir/Layer/HiddenLayer.cpp.obj
  C:/Users/jbmdu/CLionProjects/nn/Connection/Connection.h
+ C:/Users/jbmdu/CLionProjects/nn/Global/Types.h
+ C:/Users/jbmdu/CLionProjects/nn/Global/ddouble.h
  C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.h
  C:/Users/jbmdu/CLionProjects/nn/Layer/HiddenLayer.cpp
  C:/Users/jbmdu/CLionProjects/nn/Layer/HiddenLayer.h
@@ -39,7 +51,8 @@ CMakeFiles/nn.dir/Layer/HiddenLayer.cpp.obj
  C:/Users/jbmdu/CLionProjects/nn/Neuron/HiddenLayerNeuron.h
 CMakeFiles/nn.dir/Layer/InputLayer.cpp.obj
  C:/Users/jbmdu/CLionProjects/nn/Connection/Connection.h
- C:/Users/jbmdu/CLionProjects/nn/Global/Declarations.h
+ C:/Users/jbmdu/CLionProjects/nn/Global/Types.h
+ C:/Users/jbmdu/CLionProjects/nn/Global/ddouble.h
  C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.h
  C:/Users/jbmdu/CLionProjects/nn/Layer/InputLayer.cpp
  C:/Users/jbmdu/CLionProjects/nn/Layer/InputLayer.h
@@ -47,7 +60,8 @@ CMakeFiles/nn.dir/Layer/InputLayer.cpp.obj
  C:/Users/jbmdu/CLionProjects/nn/Neuron/InputLayerNeuron.h
 CMakeFiles/nn.dir/Layer/OutputLayer.cpp.obj
  C:/Users/jbmdu/CLionProjects/nn/Connection/Connection.h
- C:/Users/jbmdu/CLionProjects/nn/Global/Declarations.h
+ C:/Users/jbmdu/CLionProjects/nn/Global/Types.h
+ C:/Users/jbmdu/CLionProjects/nn/Global/ddouble.h
  C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.h
  C:/Users/jbmdu/CLionProjects/nn/Layer/OutputLayer.cpp
  C:/Users/jbmdu/CLionProjects/nn/Layer/OutputLayer.h
@@ -55,7 +69,8 @@ CMakeFiles/nn.dir/Layer/OutputLayer.cpp.obj
  C:/Users/jbmdu/CLionProjects/nn/Neuron/OutputLayerNeuron.h
 CMakeFiles/nn.dir/Network/Network.cpp.obj
  C:/Users/jbmdu/CLionProjects/nn/Connection/Connection.h
- C:/Users/jbmdu/CLionProjects/nn/Global/Declarations.h
+ C:/Users/jbmdu/CLionProjects/nn/Global/Types.h
+ C:/Users/jbmdu/CLionProjects/nn/Global/ddouble.h
  C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.h
  C:/Users/jbmdu/CLionProjects/nn/Layer/HiddenLayer.h
  C:/Users/jbmdu/CLionProjects/nn/Layer/InputLayer.h
@@ -68,23 +83,31 @@ CMakeFiles/nn.dir/Network/Network.cpp.obj
 CMakeFiles/nn.dir/Neuron/GenericNeuron.cpp.obj
  C:/Users/jbmdu/CLionProjects/nn/Algorithm/ActivationFunctions.h
  C:/Users/jbmdu/CLionProjects/nn/Connection/Connection.h
+ C:/Users/jbmdu/CLionProjects/nn/Global/Types.h
+ C:/Users/jbmdu/CLionProjects/nn/Global/ddouble.h
  C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.h
  C:/Users/jbmdu/CLionProjects/nn/Neuron/GenericNeuron.cpp
  C:/Users/jbmdu/CLionProjects/nn/Neuron/GenericNeuron.h
 CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.obj
  C:/Users/jbmdu/CLionProjects/nn/Connection/Connection.h
+ C:/Users/jbmdu/CLionProjects/nn/Global/Types.h
+ C:/Users/jbmdu/CLionProjects/nn/Global/ddouble.h
  C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.h
  C:/Users/jbmdu/CLionProjects/nn/Neuron/GenericNeuron.h
  C:/Users/jbmdu/CLionProjects/nn/Neuron/HiddenLayerNeuron.cpp
  C:/Users/jbmdu/CLionProjects/nn/Neuron/HiddenLayerNeuron.h
 CMakeFiles/nn.dir/Neuron/InputLayerNeuron.cpp.obj
  C:/Users/jbmdu/CLionProjects/nn/Connection/Connection.h
+ C:/Users/jbmdu/CLionProjects/nn/Global/Types.h
+ C:/Users/jbmdu/CLionProjects/nn/Global/ddouble.h
  C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.h
  C:/Users/jbmdu/CLionProjects/nn/Neuron/GenericNeuron.h
  C:/Users/jbmdu/CLionProjects/nn/Neuron/InputLayerNeuron.cpp
  C:/Users/jbmdu/CLionProjects/nn/Neuron/InputLayerNeuron.h
 CMakeFiles/nn.dir/Neuron/OutputLayerNeuron.cpp.obj
  C:/Users/jbmdu/CLionProjects/nn/Connection/Connection.h
+ C:/Users/jbmdu/CLionProjects/nn/Global/Types.h
+ C:/Users/jbmdu/CLionProjects/nn/Global/ddouble.h
  C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.h
  C:/Users/jbmdu/CLionProjects/nn/Neuron/GenericNeuron.h
  C:/Users/jbmdu/CLionProjects/nn/Neuron/OutputLayerNeuron.cpp
@@ -92,8 +115,9 @@ CMakeFiles/nn.dir/Neuron/OutputLayerNeuron.cpp.obj
 CMakeFiles/nn.dir/main.cpp.obj
  C:/Users/jbmdu/CLionProjects/nn/Algorithm/BackPropagator.h
  C:/Users/jbmdu/CLionProjects/nn/Connection/Connection.h
- C:/Users/jbmdu/CLionProjects/nn/Global/Declarations.h
  C:/Users/jbmdu/CLionProjects/nn/Global/Global.h
+ C:/Users/jbmdu/CLionProjects/nn/Global/Types.h
+ C:/Users/jbmdu/CLionProjects/nn/Global/ddouble.h
  C:/Users/jbmdu/CLionProjects/nn/Layer/GenericLayer.h
  C:/Users/jbmdu/CLionProjects/nn/Layer/HiddenLayer.h
  C:/Users/jbmdu/CLionProjects/nn/Layer/InputLayer.h

@@ -20,7 +20,6 @@ void GenericNeuron::linkNeuronsBackwards(std::shared_ptr<GenericLayer> prevLayer
 }
 
 GenericNeuron::GenericNeuron() {
-    std::cout << "+N" << std::endl;
     d_output = -1;
 }
 
@@ -44,26 +43,22 @@ int GenericNeuron::getLayerId() const {
     return d_layerId;
 }
 
-void GenericNeuron::setOutput(double output) {
+void GenericNeuron::setOutput(R output) {
     d_output = output;
 
 };
 
-double GenericNeuron::getOutput() const {
-return d_output;
+Types::R GenericNeuron::getOutput() const {
+    return d_output;
 }
 
-double GenericNeuron::activationFunction(double x) {
+Types::R GenericNeuron::activationFunction(R x) {
     return ActivationFunctions::sigmoid(x);
 }
-double GenericNeuron::activationFunctionDerivative(double x) {
-    return ActivationFunctions::derivative_sigmoid(x);
-}
 
-double GenericNeuron::computeOutput() {
 
-    double soi = computeSumOfInputs();
-    std::cout << "L" << d_layerId << "-N" << d_neuronId << "soi " << soi << std::endl;
+Types::R GenericNeuron::computeOutput() {
+    R soi = computeSumOfInputs();
     return activationFunction(soi);
 }
 
@@ -71,16 +66,15 @@ void GenericNeuron::updateOutput() {
     d_output = computeOutput();
 }
 
-double GenericNeuron::computeSumOfInputs() {
-    double res = 0.;
+Types::R GenericNeuron::computeSumOfInputs() {
+    R res = 0.;
     for (auto c : d_backConnections) {
-        std::cout << c << std::endl;
         res += c.getWeight() * c.getFrom()->getOutput();
     }
     return res;
 }
 
-const std::vector<Connection> &GenericNeuron::getBackConnections() const {
+ std::vector<Connection> &GenericNeuron::getBackConnections()  {
     return d_backConnections;
 }
 
@@ -88,7 +82,11 @@ void GenericNeuron::setD_backConnections(const std::vector<Connection> &d_backCo
     GenericNeuron::d_backConnections = d_backConnections;
 }
 
-std::ostream& operator<<(std::ostream& os, const GenericNeuron& c){
+std::ostream &operator<<(std::ostream &os, const GenericNeuron &c) {
     os << "L" << c.getLayerId() << "-N" << c.getNeuronId() << ": output= " << c.getOutput();
     return os;
 }
+
+ GenericNeuron::R GenericNeuron::computeError() {
+    return 0.;
+};

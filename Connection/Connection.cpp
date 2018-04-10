@@ -6,7 +6,7 @@
 #include <memory>
 #include "../Neuron/GenericNeuron.h"
 
-Connection::Connection(std::shared_ptr<GenericNeuron> from,std::shared_ptr<GenericNeuron>  to,double weight){
+Connection::Connection(std::shared_ptr<GenericNeuron> from,std::shared_ptr<GenericNeuron>  to,R weight){
     d_from=from;
     d_to=to;
     d_weight=weight;
@@ -18,13 +18,14 @@ std::shared_ptr<GenericNeuron> Connection::getTo() const{
     return d_to;
 }
 
-double Connection::getWeight() const {
+Connection::R Connection::getWeight() const {
     return d_weight;
 }
 
 
-void Connection::setWeight(double d_weight) {
-    Connection::d_weight = d_weight;
+void Connection::setWeight(R weight) {
+    std::cout << "L"<<d_from->getLayerId()<<"-N"<<d_from->getNeuronId()<<" --> L"<<d_to->getLayerId()<<"-N"<<d_to->getNeuronId()<<" Weight: "<<d_weight<<" --> " << weight<<std::endl;
+    d_weight = weight;
 }
 
 std::ostream& operator<<(std::ostream& os, const Connection& c){
