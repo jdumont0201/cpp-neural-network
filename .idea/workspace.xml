@@ -12,58 +12,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="283552f9-06f3-4e17-952d-b3ec19c257d8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Global/ddouble.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Global/ddouble.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/ActivationFunctions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/ActivationFunctions.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/ActivationFunctions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/ActivationFunctions.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/BackPropagator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/BackPropagator.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/BackPropagator.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/BackPropagator.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Connection/Connection.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Connection/Connection.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Connection/Connection.h" beforeDir="false" afterPath="$PROJECT_DIR$/Connection/Connection.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Global/Declarations.h" beforeDir="false" afterPath="$PROJECT_DIR$/Global/Types.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Global/Global.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Global/Global.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Layer/GenericLayer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Layer/GenericLayer.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Layer/GenericLayer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Layer/GenericLayer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Layer/InputLayer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Layer/InputLayer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layer/HiddenLayer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Layer/HiddenLayer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layer/InputLayer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Layer/InputLayer.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Layer/OutputLayer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Layer/OutputLayer.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Layer/OutputLayer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Layer/OutputLayer.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Network/Network.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Network/Network.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Network/Network.h" beforeDir="false" afterPath="$PROJECT_DIR$/Network/Network.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Neuron/GenericNeuron.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron/GenericNeuron.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Neuron/GenericNeuron.h" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron/GenericNeuron.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Neuron/HiddenLayerNeuron.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron/HiddenLayerNeuron.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Neuron/InputLayerNeuron.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron/InputLayerNeuron.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neuron/InputLayerNeuron.h" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron/InputLayerNeuron.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Neuron/OutputLayerNeuron.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron/OutputLayerNeuron.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Neuron/OutputLayerNeuron.h" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron/OutputLayerNeuron.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Connection/Connection.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Layer/GenericLayer.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Layer/HiddenLayer.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Layer/InputLayer.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Layer/OutputLayer.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Network/Network.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Neuron/GenericNeuron.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Neuron/InputLayerNeuron.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Neuron/OutputLayerNeuron.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Connection/Connection.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Connection/Connection.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Layer/GenericLayer.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Layer/GenericLayer.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Layer/HiddenLayer.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Layer/HiddenLayer.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Layer/InputLayer.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Layer/InputLayer.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Layer/OutputLayer.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Layer/OutputLayer.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Network/Network.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Network/Network.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Neuron/GenericNeuron.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Neuron/GenericNeuron.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Neuron/HiddenLayerNeuron.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Neuron/InputLayerNeuron.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Neuron/InputLayerNeuron.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Neuron/OutputLayerNeuron.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/Neuron/OutputLayerNeuron.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nn.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/nn.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/nn.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/nn.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/nn.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/nn.exe" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,25 +57,49 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Network.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Network/Network.cpp">
+      <file leaf-file-name="GenericLayer.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Layer/GenericLayer.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="83" column="27" lean-forward="true" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
+            <state relative-caret-position="342">
+              <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
               <folding>
-                <element signature="e#41#61#0" expanded="true" />
+                <element signature="e#42#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenericLayer.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Layer/GenericLayer.cpp">
+      <file leaf-file-name="HiddenLayer.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Layer/HiddenLayer.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+            <state relative-caret-position="152">
+              <caret line="8" column="72" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="72" />
+              <folding>
+                <element signature="e#42#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputLayer.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Layer/InputLayer.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
               <folding>
                 <element signature="e#42#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OutputLayer.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Layer/OutputLayer.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#42#66#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,43 +108,10 @@
       <file leaf-file-name="BackPropagator.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithm/BackPropagator.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="448">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
               <folding>
                 <element signature="e#42#69#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Connection.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Connection/Connection.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="e#42#65#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActivationFunctions.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithm/ActivationFunctions.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Connection.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Connection/Connection.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#81#98#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,8 +120,8 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="380">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -157,35 +129,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ddouble.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Global/ddouble.h">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="95">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenericNeuron.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Neuron/GenericNeuron.cpp">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="77" column="27" lean-forward="true" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+            <state relative-caret-position="19">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenericLayer.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Layer/GenericLayer.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="30" />
               <folding>
-                <element signature="e#42#68#0" expanded="true" />
+                <element signature="e#95#112#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenericNeuron.h" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Neuron/GenericNeuron.h">
+      <file leaf-file-name="HiddenLayerNeuron.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Neuron/HiddenLayerNeuron.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-              <folding>
-                <element signature="e#97#114#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="152">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -204,6 +182,9 @@
       <find>gett</find>
       <find>DOUBLE</find>
       <find>initial</find>
+      <find>setinputs</find>
+      <find>seti</find>
+      <find>setd</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -218,35 +199,35 @@
         <option value="$PROJECT_DIR$/Global/Global.h" />
         <option value="$PROJECT_DIR$/Layer/HiddenLayer.h" />
         <option value="$PROJECT_DIR$/Neuron/HiddenLayerNeuron.h" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/Layer/HiddenLayer.cpp" />
         <option value="$PROJECT_DIR$/Global/ddouble.cpp" />
         <option value="$PROJECT_DIR$/Global/Declarations.h" />
-        <option value="$PROJECT_DIR$/Layer/GenericLayer.cpp" />
         <option value="$PROJECT_DIR$/Algorithm/ActivationFunctions.cpp" />
-        <option value="$PROJECT_DIR$/Layer/OutputLayer.cpp" />
         <option value="$PROJECT_DIR$/Neuron/InputLayerNeuron.h" />
         <option value="$PROJECT_DIR$/Algorithm/ActivationFunctions.h" />
-        <option value="$PROJECT_DIR$/Layer/GenericLayer.h" />
         <option value="$PROJECT_DIR$/Layer/InputLayer.h" />
-        <option value="$PROJECT_DIR$/Layer/InputLayer.cpp" />
-        <option value="$PROJECT_DIR$/Neuron/OutputLayerNeuron.h" />
-        <option value="$PROJECT_DIR$/Network/Network.h" />
         <option value="$PROJECT_DIR$/Global/ddouble.h" />
-        <option value="$PROJECT_DIR$/Algorithm/BackPropagator.h" />
-        <option value="$PROJECT_DIR$/Neuron/HiddenLayerNeuron.cpp" />
-        <option value="$PROJECT_DIR$/Neuron/InputLayerNeuron.cpp" />
-        <option value="$PROJECT_DIR$/Neuron/OutputLayerNeuron.cpp" />
         <option value="$PROJECT_DIR$/Global/Types.h" />
         <option value="$PROJECT_DIR$/Global/Global.cpp" />
         <option value="$PROJECT_DIR$/Layer/OutputLayer.h" />
-        <option value="$PROJECT_DIR$/Network/Network.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Network/Network.cpp" />
+        <option value="$PROJECT_DIR$/Network/Network.h" />
+        <option value="$PROJECT_DIR$/Algorithm/BackPropagator.h" />
         <option value="$PROJECT_DIR$/Algorithm/BackPropagator.cpp" />
         <option value="$PROJECT_DIR$/Connection/Connection.h" />
         <option value="$PROJECT_DIR$/Connection/Connection.cpp" />
+        <option value="$PROJECT_DIR$/Neuron/OutputLayerNeuron.h" />
         <option value="$PROJECT_DIR$/Neuron/GenericNeuron.cpp" />
         <option value="$PROJECT_DIR$/Neuron/GenericNeuron.h" />
+        <option value="$PROJECT_DIR$/Neuron/OutputLayerNeuron.cpp" />
+        <option value="$PROJECT_DIR$/Neuron/InputLayerNeuron.cpp" />
+        <option value="$PROJECT_DIR$/Neuron/HiddenLayerNeuron.cpp" />
+        <option value="$PROJECT_DIR$/Layer/GenericLayer.h" />
+        <option value="$PROJECT_DIR$/Layer/GenericLayer.cpp" />
+        <option value="$PROJECT_DIR$/Layer/HiddenLayer.cpp" />
+        <option value="$PROJECT_DIR$/Layer/InputLayer.cpp" />
+        <option value="$PROJECT_DIR$/Layer/OutputLayer.cpp" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -276,6 +257,11 @@
               <item name="nn" type="b2602c69:ProjectViewProjectNode" />
               <item name="nn" type="462c0819:PsiDirectoryNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nn" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nn" type="b2602c69:ProjectViewProjectNode" />
@@ -349,7 +335,7 @@
     <frame x="0" y="0" width="1563" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22136916" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22136916" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.29137057" />
       <window_info anchor="bottom" id="CMake" order="7" />
@@ -359,7 +345,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.26245847" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.22436549" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.28527918" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -378,7 +364,24 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="35" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Algorithm/BackPropagator.cpp</url>
+          <line>76</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Algorithm/BackPropagator.cpp</url>
+          <line>77</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Algorithm/BackPropagator.cpp</url>
+          <line>65</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="39" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -473,23 +476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Layer/HiddenLayer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#42#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ext/new_allocator.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -542,89 +528,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Network/Network.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#85#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Global/ddouble.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="210" selection-start-line="210" selection-end-line="210" />
-          <folding>
-            <element signature="e#323#342#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/BackPropagator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_vector.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="655" selection-start-line="655" selection-end-line="655" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Neuron/OutputLayerNeuron.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Neuron/InputLayerNeuron.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Neuron/HiddenLayerNeuron.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Neuron/InputLayerNeuron.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="e#42#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Neuron/OutputLayerNeuron.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Neuron/HiddenLayerNeuron.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -656,16 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Layer/InputLayer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="e#42#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Layer/HiddenLayer.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -693,26 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Layer/OutputLayer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#42#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Layer/GenericLayer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="e#95#112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Global/ddouble.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -720,47 +597,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/ActivationFunctions.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Network/Network.cpp">
+    <entry file="file://$PROJECT_DIR$/Network/Network.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="83" column="27" lean-forward="true" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
+        <state relative-caret-position="320">
+          <caret line="48" column="80" selection-start-line="48" selection-start-column="80" selection-end-line="48" selection-end-column="80" />
           <folding>
-            <element signature="e#41#61#0" expanded="true" />
+            <element signature="e#85#102#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Layer/GenericLayer.cpp">
+    <entry file="file://$PROJECT_DIR$/Global/ddouble.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+        <state relative-caret-position="324">
+          <caret line="210" selection-start-line="210" selection-end-line="210" />
           <folding>
-            <element signature="e#42#59#0" expanded="true" />
+            <element signature="e#323#342#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/BackPropagator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="26" column="70" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Connection/Connection.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="361">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding>
             <element signature="e#81#98#0" expanded="true" />
           </folding>
@@ -769,41 +643,170 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Connection/Connection.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#42#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/BackPropagator.cpp">
+    <entry file="file://$PROJECT_DIR$/Network/Network.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        <state relative-caret-position="361">
+          <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
           <folding>
-            <element signature="e#42#69#0" expanded="true" />
+            <element signature="e#41#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Neuron/OutputLayerNeuron.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Neuron/GenericNeuron.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+          <folding>
+            <element signature="e#97#114#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Neuron/GenericNeuron.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="77" column="27" lean-forward="true" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+        <state relative-caret-position="475">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#42#68#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Neuron/GenericNeuron.h">
+    <entry file="file://$PROJECT_DIR$/Neuron/OutputLayerNeuron.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state relative-caret-position="247">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Neuron/InputLayerNeuron.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
-            <element signature="e#97#114#0" expanded="true" />
+            <element signature="e#42#61#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Neuron/InputLayerNeuron.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Neuron/HiddenLayerNeuron.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Neuron/HiddenLayerNeuron.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Layer/GenericLayer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="e#95#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Layer/GenericLayer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+          <folding>
+            <element signature="e#42#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Layer/HiddenLayer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="72" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="72" />
+          <folding>
+            <element signature="e#42#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Layer/InputLayer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding>
+            <element signature="e#42#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Layer/OutputLayer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#42#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/BackPropagator.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="e#42#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>

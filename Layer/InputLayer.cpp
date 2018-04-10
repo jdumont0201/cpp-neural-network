@@ -7,8 +7,7 @@
 #include "InputLayer.h"
 #include "../Neuron/InputLayerNeuron.h"
 
-InputLayer::InputLayer(RN & inputValues){
-    setLayerId(0);
+InputLayer::InputLayer(RN & inputValues):GenericLayer(0){
     std::cout << "L0"<<std::endl;
     for(int i=0;i<inputValues.size();++i){
         auto nn=std::make_shared<InputLayerNeuron>(i,inputValues[i]);

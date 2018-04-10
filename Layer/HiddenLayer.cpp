@@ -6,8 +6,8 @@
 #include "HiddenLayer.h"
 #include "../Neuron/HiddenLayerNeuron.h"
 
-HiddenLayer::HiddenLayer(int layerId,int layerSize){
-    setLayerId(layerId);
+HiddenLayer::HiddenLayer(int layerId,int layerSize):GenericLayer(layerId){
+
     std::cout << "L"<<layerId<< std::endl;
     for(int i=0;i<layerSize;++i){
         auto nn=std::make_shared<HiddenLayerNeuron>(layerId,i);

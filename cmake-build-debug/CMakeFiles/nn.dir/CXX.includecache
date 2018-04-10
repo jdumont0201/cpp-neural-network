@@ -179,6 +179,8 @@ GenericNeuron.h
 C:/Users/jbmdu/CLionProjects/nn/Neuron/GenericNeuron.h
 iostream
 -
+cassert
+-
 math.h
 C:/Users/jbmdu/CLionProjects/nn/Neuron/math.h
 ../Algorithm/ActivationFunctions.h

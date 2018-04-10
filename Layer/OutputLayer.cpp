@@ -6,8 +6,7 @@
 #include "../Neuron/OutputLayerNeuron.h"
 #include <iostream>
 #include "math.h"
-OutputLayer::OutputLayer(int layerId,RN & targetValues){
-    setLayerId(layerId);
+OutputLayer::OutputLayer(int layerId,RN & targetValues):GenericLayer(layerId){
     std::cout << "L"<<layerId<< std::endl;
     for(int i=0;i<targetValues.size();++i){
         auto n = std::make_shared<OutputLayerNeuron>(layerId,i,targetValues[i]);

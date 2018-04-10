@@ -19,8 +19,13 @@ class BackPropagator {
     void backPropagate();
     void backPropagateLayer(int layerId, RNM & d);
 public:
-    void run();
+    //CONSTRUCTORS
     BackPropagator(Network &N,double eps,int maxIterations);
+
+    //MANIPULATORS
+    void run();
+    R computeUpdatedWeight(int layerId,std::shared_ptr<GenericNeuron> nj,Connection & cij,RNM & d);
+
 };
 
 

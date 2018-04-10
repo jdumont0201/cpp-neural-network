@@ -16,10 +16,9 @@ void GenericLayer::linkNeuronsBackwards(std::shared_ptr<GenericLayer> &prevLayer
         n->linkNeuronsBackwards(prevLayer);
     }
 }
+GenericLayer::GenericLayer(int layerId):d_layerId(layerId){
 
-void GenericLayer::setLayerId(int layerId) {
-    d_layerId = layerId;
-}
+};
 
 int GenericLayer::getLayerId() {
     return d_layerId;

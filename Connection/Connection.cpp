@@ -6,10 +6,8 @@
 #include <memory>
 #include "../Neuron/GenericNeuron.h"
 
-Connection::Connection(std::shared_ptr<GenericNeuron> from,std::shared_ptr<GenericNeuron>  to,R weight){
-    d_from=from;
-    d_to=to;
-    d_weight=weight;
+Connection::Connection(std::shared_ptr<GenericNeuron> from,std::shared_ptr<GenericNeuron>  to,R weight): d_from(from),d_to(to), d_weight(weight){
+
 }
 std::shared_ptr<GenericNeuron> Connection::getFrom() const {
     return d_from;

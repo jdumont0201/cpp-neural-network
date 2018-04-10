@@ -4,12 +4,10 @@
 
 #include "GenericNeuron.h"
 #include <iostream>
+#include <cassert>
 #include "math.h"
 #include "../Algorithm/ActivationFunctions.h"
 
-void GenericNeuron::setInputs(std::vector<Connection> backConnections) {
-    d_backConnections = backConnections;
-}
 
 
 void GenericNeuron::linkNeuronsBackwards(std::shared_ptr<GenericLayer> prevLayer) {
@@ -19,24 +17,11 @@ void GenericNeuron::linkNeuronsBackwards(std::shared_ptr<GenericLayer> prevLayer
     }
 }
 
-GenericNeuron::GenericNeuron() {
-    d_output = -1;
-}
-
-GenericNeuron::GenericNeuron(GenericNeuron *g) {
+GenericNeuron::GenericNeuron(int layerId,int neuronId):d_layerId(layerId),d_neuronId(neuronId){
 
 }
-
-void GenericNeuron::setNeuronId(int neuronId) {
-    d_neuronId = neuronId;
-}
-
 int GenericNeuron::getNeuronId() const {
     return d_neuronId;
-}
-
-void GenericNeuron::setLayerId(int layerId) {
-    d_layerId = layerId;
 }
 
 int GenericNeuron::getLayerId() const {
@@ -78,9 +63,6 @@ Types::R GenericNeuron::computeSumOfInputs() {
     return d_backConnections;
 }
 
-void GenericNeuron::setD_backConnections(const std::vector<Connection> &d_backConnections) {
-    GenericNeuron::d_backConnections = d_backConnections;
-}
 
 std::ostream &operator<<(std::ostream &os, const GenericNeuron &c) {
     os << "L" << c.getLayerId() << "-N" << c.getNeuronId() << ": output= " << c.getOutput();
@@ -90,3 +72,7 @@ std::ostream &operator<<(std::ostream &os, const GenericNeuron &c) {
  GenericNeuron::R GenericNeuron::computeError() {
     return 0.;
 };
+Connection & GenericNeuron::getBackConnection(int i) {
+    assert(i<d_backConnections.size());
+    return d_backConnections[i];
+}

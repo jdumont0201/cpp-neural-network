@@ -41,10 +41,12 @@ public:
     //ACCESSORS
     int getNbLayers() const;
     std::vector<std::shared_ptr<GenericLayer>> getLayers() const;
-    std::shared_ptr<GenericLayer> getLayer(int j) const;
+    std::shared_ptr<GenericLayer> getLayer(int layerId) const;
     std::shared_ptr<GenericLayer> getLastLayer() const;
-    std::shared_ptr<GenericNeuron> getNeuron(int j,int i) const;
+    std::shared_ptr<GenericNeuron> getNeuron(int layerId,int neuronId) const;
     R getTargetValue(int i);
+    R getWeight(int destLayerId,int destNeuron,int sourceNeuron);
+    Connection & getConnection(int destLayerId,int destNeuron,int sourceNeuron);
     std::shared_ptr<GenericLayer> operator[](int i) const;
 };
 

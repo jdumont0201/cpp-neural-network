@@ -4,15 +4,9 @@
 
 #include "OutputLayerNeuron.h"
 
-OutputLayerNeuron::OutputLayerNeuron(int layerId,int neuronId,R target){
-    setTarget(target);
-    setLayerId(layerId);
-    setNeuronId(neuronId);
-    std::cout << "L"<<layerId<<"-N" <<neuronId<<": create"<< std::endl;
-}
+OutputLayerNeuron::OutputLayerNeuron(int layerId,int neuronId,R target):d_target(target),GenericNeuron(layerId,neuronId){
 
-void OutputLayerNeuron::setTarget(R target){
-    d_target=target;
+    std::cout << "L"<<layerId<<"-N" <<neuronId<<": create"<< std::endl;
 }
 
 Types::R OutputLayerNeuron::computeError(){

@@ -71,17 +71,17 @@ void Network::linkNeurons() {
 std::vector<std::shared_ptr<GenericLayer>> Network::getLayers() const {
     return d_layers;
 }
-std::shared_ptr<GenericLayer> Network::getLayer(int j) const {
-    assert(j<d_layers.size());
-    return d_layers[j];
+std::shared_ptr<GenericLayer> Network::getLayer(int layerId) const {
+    assert(layerId<d_layers.size());
+    return d_layers[layerId];
 }
-std::shared_ptr<GenericNeuron> Network::getNeuron(int j,int i) const {
-    assert(j<d_layers.size() );
-    return d_layers[j]->getNeuron(i);
+std::shared_ptr<GenericNeuron> Network::getNeuron(int layerId,int neuronId) const {
+    assert(layerId<d_layers.size() );
+    return d_layers[layerId]->getNeuron(neuronId);
 }
 void Network::updateOutput() {
-    for (int i=0;i<d_layers.size();++i) {
-        d_layers[i]->updateOutput();
+    for (auto x : d_layers) {
+        x->updateOutput();
     }
 }
 std::ostream &operator<<(std::ostream &os, const Network &c){
@@ -111,4 +111,10 @@ std::shared_ptr<GenericLayer> Network::getLastLayer() const {
 
 std::shared_ptr<GenericLayer> Network::operator[](int i) const{
     return d_layers[i];
+}
+Types::R Network::getWeight(int destLayerId,int destNeuron,int sourceNeuron){
+    return getLayer(destLayerId)->getNeuron(destNeuron)->getBackConnection(sourceNeuron).getWeight();
+}
+Connection & Network::getConnection(int destLayerId,int destNeuron,int sourceNeuron){
+    return getLayer(destLayerId)->getNeuron(destNeuron)->getBackConnection(sourceNeuron);
 }

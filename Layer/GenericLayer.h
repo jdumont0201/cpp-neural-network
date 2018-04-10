@@ -16,18 +16,23 @@ class GenericLayer {
     typedef Types::R R;
     typedef typename Types::RN RN;
 
-    int d_layerId;
+    const int d_layerId;
     R d_bias;
 protected :
     std::vector<std::shared_ptr<GenericNeuron>> d_neurons;
 public:
-    std::vector<std::shared_ptr<GenericNeuron>> getNeurons() const;
+    //CONSTRUCTORS
+    GenericLayer(int layerId);
+
+    //MANIPULATORS
     void linkNeuronsBackwards(std::shared_ptr<GenericLayer> &prevLayer);
     void setLayerId(int layerId);
-    int getLayerId();
     void updateOutput() ;
     virtual R computeError(); //overriden by OutputLayer
 
+    //ACCESSORS
+    std::vector<std::shared_ptr<GenericNeuron>> getNeurons() const;
+    int getLayerId();
     int getSize() const;
     std::shared_ptr<GenericNeuron> getNeuron(int i) const;
 };

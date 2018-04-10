@@ -10,9 +10,7 @@
 
 class OutputLayerNeuron : public GenericNeuron {
     typedef Types::R R;
-    R d_target;
-protected:
-    void setTarget(R target);
+    const R d_target;
 public:
     OutputLayerNeuron(int layerId,int neuronId,R target);
     R computeError();

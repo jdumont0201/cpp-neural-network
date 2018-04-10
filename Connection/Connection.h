@@ -12,14 +12,17 @@ class GenericNeuron;
 
 class Connection {
     typedef Types::R R;
-    std::shared_ptr<GenericNeuron> d_from;
-    std::shared_ptr<GenericNeuron> d_to;
+    const std::shared_ptr<GenericNeuron> d_from;
+    const std::shared_ptr<GenericNeuron> d_to;
     R d_weight;
 public:
+    //CONSTRUCTORS
+    Connection(std::shared_ptr<GenericNeuron> from,std::shared_ptr<GenericNeuron>  to,R weight);
+
+    //MANIPULATORS
     void setWeight(R d_weight);
 
-public:
-    Connection(std::shared_ptr<GenericNeuron> from,std::shared_ptr<GenericNeuron>  to,R weight);
+    //ACCESSORS
     std::shared_ptr<GenericNeuron> getFrom() const;
     std::shared_ptr<GenericNeuron> getTo() const;
     R getWeight() const;

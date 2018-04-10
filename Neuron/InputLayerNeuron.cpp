@@ -10,10 +10,8 @@ void  InputLayerNeuron::setInput(R input){
     setOutput(input);
 }
 
-InputLayerNeuron::InputLayerNeuron(int neuronId,R input){
+InputLayerNeuron::InputLayerNeuron(int neuronId,R input):GenericNeuron(0,neuronId){
     setInput(input);
-    setLayerId(0);
-    setNeuronId(neuronId);
     std::cout << "L"<<0<<"-N" <<neuronId<<": create"<< std::endl;
 
 }
